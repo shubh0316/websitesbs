@@ -4,6 +4,7 @@ import Container from '../container'
 import AboutSection from './AboutSection'
 import WhatWeDoSection from './WhatWeDoSection'
 import WebsitePackagesSection from './WebsitePackagesSection'
+import HaveAnyQuestionSection from './HaveAnyQuestionSection'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
          <AboutSection />
          <WhatWeDoSection />
          <WebsitePackagesSection />
+         <HaveAnyQuestionSection />
      </>
   )
 }
