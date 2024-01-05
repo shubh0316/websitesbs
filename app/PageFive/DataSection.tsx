@@ -3,8 +3,9 @@ import React from "react";
 const DataSection = () => {
   return (
     <div>
+      <div className="overflow-x-hidden">  
       <div className="p-10 text-left flex flex-col space-y-4">
-        <div className="text-extrabold text-lg">
+        <div className="text-extrabold text-sm">
           E-COMMERCE WEBSITE PACKAGES
         </div>
         <p className="text-slate-700 text-md">100% customized Package</p>
@@ -31,6 +32,7 @@ const DataSection = () => {
           emerge.
         </span>
       </div>
+    </div>
     </div>
   );
 };

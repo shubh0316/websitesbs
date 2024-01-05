@@ -3,16 +3,16 @@ import React from "react";
 const BackOfficeSection = () => {
   return (
     <div>
-      <div className=" bg-slate-100">
+      <div className="my-4 bg-slate-100">
         <div className="flex flex-col text-center gap-y-5 py-10">
           <div className="text-2xl font-bold">EXTRA FEATURES</div>
-          <div className="text-lg font-normal leading-tight">
+          <div className="text-md font-normal leading-tight">
             We are providing the following best services.
           </div>
         </div>
-        
-        <div className="flex flex-row gap-4 ml-40">
-          <div className="flex flex-col space-y-4 w-[40rem] bg-white rounded-2xl p-20">
+        <div className="md:ml-40">     
+        <div className="flex flex-col ml-2 md:flex-row gap-4 ml-[1rem] md:ml-[8rem]">
+          <div className="flex flex-col space-y-4 md:w-[40rem] w-fit bg-white rounded-2xl p-20">
             <div className="text-lg uppercase text-orange-700 ">
               ADMIN BACK OFFICE
             </div>
@@ -817,7 +817,7 @@ const BackOfficeSection = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col space-y-4 w-[40rem] bg-white rounded-2xl p-20">
+          <div className="flex flex-col space-y-4 md:w-[40rem] w-fit bg-white rounded-2xl p-20">
             <div className="text-lg uppercase text-orange-700 ">
               ADMIN BACK OFFICE
             </div>
@@ -1623,7 +1623,7 @@ const BackOfficeSection = () => {
             </div>
           </div>
         </div>
-        
+        </div>
       </div>
     </div>
   );

@@ -19,11 +19,11 @@ const ExtraFeature = () => {
     <div className="my-8 bg-slate-100">
       <div className="flex flex-col text-center gap-y-5 py-10">
         <div className="text-2xl font-bold">EXTRA FEATURES</div>
-        <div className="text-lg font-normal leading-tight">
+        <div className="text-sm font-normal leading-tight">
           We are providing the following best services.
         </div>
       </div>
-      <div className="container mx-auto mt-8 bg-white rounded-xl p-8">
+      <div className="container mx-auto mt-8 bg-white rounded-xl p-4 md:p-8 overflow-x-hidden">
         <table className="table-auto w-full border-collapse border border-gray-300 rounded-xl">
           <thead>
             <tr>
