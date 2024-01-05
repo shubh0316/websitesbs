@@ -483,7 +483,7 @@ export default function PricingPlan() {
           </div>
           <div className="border border-gray-200 "></div>
           <div className="flex flex-col md:text-md text-sm space-y-4">
-        v 
+        
             <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
               <span className="">
                 <svg
