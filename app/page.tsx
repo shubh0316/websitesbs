@@ -1,14 +1,11 @@
 import Image from 'next/image'
-import Container  from './container';
+import GetQoute from './GetQoute'
 
 export default function Home() {
   return (
-
-     
+  
      <>
-     <Container>
-
-     </Container>
+      <GetQoute />
     
      </>
   )
