@@ -3,6 +3,7 @@ import DataSection from './DataSection'
 import ExtraFeature from './ExtraFeature'
 import BackOfficeSection from './BackOfficeSection'
 import OnlineDemoSection from './OnlineDemoSection'
+import ComparePackageSection from './ComparePackageSection'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <ExtraFeature />
       <BackOfficeSection />
       <OnlineDemoSection />
+      <ComparePackageSection />
       </div>
     </div>
   )

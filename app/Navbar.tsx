@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import logoImg from "@/assets/FSL - Main Logo - Navbar.png";
 import Image from "next/image";
-import menuImg from "@/assets/svg/menu (1).svg";
 import Link from "next/link";
 import Container from "./container";
 
@@ -41,17 +39,17 @@ export function MobileNav() {
       <div className="flex py-4 items-baseline relative sm:hidden">
        
         <figure className="mx-auto">
-          <Image
+          {/* <Image
             src={logoImg}
             className="object-contain"
             alt="logo"
             height={40}
 
             quality={100}
-          />
+          /> */}
         </figure>
         <div className="text-black absolute -right-14 xm:right-8 top-5">
-          <Image onClick={() => setOpen((o) => !o)} src={menuImg} alt="menu" />
+          {/* <Image onClick={() => setOpen((o) => !o)} src={menuImg} alt="menu" /> */}
         </div>
       </div>
       {open && (
@@ -92,13 +90,13 @@ export function DesktopNav() {
   return (
     <div className="py-6 items-center justify-between relative hidden sm:flex">
       <figure>
-        <Image
+        {/* <Image
           src={logoImg}
           className="object-contain p-2"
           alt="logo"
           height={55}
           quality={100}
-        />
+        /> */}
       </figure>
       <ul className="flex space-x-6">
         {navlinks.map((link) => (

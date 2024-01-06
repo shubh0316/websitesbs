@@ -10,7 +10,7 @@ const GetQoute = () => {
             We are providing the following best services.
           </div>
         </div>
-        <div className="grid md:grid-cols-2 gap-10 md:ml-[22rem]  p-20 max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-10 md:ml-40  p-20 max-w-6xl">
           <div className="col-span-1">
             <div className="flex flex-col space-y-8">
               
