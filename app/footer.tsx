@@ -1,100 +1,135 @@
 
+import { Icons } from "@/components/Icons";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import Image from "next/image";
+import logo from "@/assets/MLMLogo.png";
+import call from "@/assets/svg/Footer - Contact Us - Call Icon.svg";
 import { FC } from "react";
 
 const Footer: FC = () => {
+
+const company = [
+    "About Us",
+    "Why Choose us?",
+    "Our Mission",
+    "Technology",
+    "Our Clients",
+    "Terms & condition",
+    "Privacy Policy",
+    "Disclaimer"
+];  
+const Services = [
+  "Best Website Package",
+  "Software Development",
+  "Starter Website Package",
+  "Basic Website Package",
+  "Business Website Package",
+  "Ultimate Website Package",
+  "Website Maintenance",
+  "Binary Plan Calc"
+]; 
+const DigitalMarketing = [
+    "Search Engine Optimization",
+    "Social Media Optimization",
+    "Directory Listing",
+    "Online Classified Ad",
+    "e-Commerce Web Portal",
+    "Real Estate Web Portal"
+]; 
+const MLMSoftware = [
+    "MLM Binary Plan",
+    "MLM Board Plan",
+    "MLM Matrix Plan",
+    "MLM Unilevel Plan",
+    "MLM Generation Plan",
+    "MLM MonoLine Plan",
+    "MLM Investment Plan",
+    "Crowd Funding Plan"
+]; 
+ 
   return (
     <footer>
-      <div className="text-white bg-gradient-to-br from-primary to-black">
-        <div className="px-6 pt-12 pb-12 mx-auto sm:pt-24 max-w-7xl">
-          <div className="grid lg:grid-cols-[2fr_repeat(2,1fr)_1.2fr] lg:grid-rows-[repeat(2,auto)] sm:grid-cols-3 grid-rows-[repeat(4,auto)] grid-cols-1 grid-flow-col gap-x-12 gap-y-6">
-            <>
-              {/* <a href="/">
-                <Icons.lcWhiteText
-                  className="w-48 h-20 sm:col-span-3 lg:col-span-1"
-                  preserveAspectRatio="xMinYMid meet"
-                />
-              </a> */}
-              <div className="flex flex-col text-sm text-gray-200 gap-y-4 lg:col-span-1">
-                <p className="font-light [text-wrap:balance]">
-                At LC, with over 25 years of experience, we excel in 3PL/4PL services, delivering tailored logistics solutions that prioritize our clients.
-                <br/> 
-                Our comprehensive services encompass Trucking, Brokerage, Freight Forwarding, Logistics, Distribution, Financial Services, Customs Compliance, and Consulting, helping companies thrive.
-                </p>
-                <p className="hidden mt-auto lg:flex">
-                  <MapPin size={20} className="mr-2" />
-                  6415 Northwest Dr. Unit 17 & 18 Mississauga, ON L4V 1X1
-                </p>
-              </div>
-            </>
-
-            <>
-              <h3 className="self-center hidden uppercase sm:block">
-                Services
-              </h3>
-              {/* <ul className="hidden space-y-4 text-sm font-light sm:block">
-                {services.map((service) => (
-                  <li
-                    className="cursor-pointer hover:underline"
-                    key={service.title}
-                  >
-                    <a href={service.href}>{service.title}</a>
-                  </li>
-                ))}
-              </ul> */}
-            </>
-
-            <>
-              <h3 className="self-center hidden uppercase sm:block">
-                Training
-              </h3>
-              {/* <ul className="hidden space-y-4 text-sm font-light sm:block">
-                {trainings.map((training) => (
-                  <li
-                    className="cursor-pointer hover:underline"
-                    key={training.title}
-                  >
-                    {" "}
-                    <a href={training.href}>{training.title}</a>
-                  </li>
-                ))}
-              </ul> */}
-            </>
-
-            <>
-              <h3 className="self-center uppercase">Talk To Us</h3>
-              <ul className="space-y-4 text-sm">
-                <li className="flex">
-                  <Phone size={20} className="mr-2" /> Toll Free: (888) 856-2352
-                </li>
-                <li className="flex">
-                  <Phone size={20} className="mr-2" /> (905) 247-6868
-                </li>
-                <li className="flex hover:underline">
-                  <Mail size={20} className="mr-2" />
-                  <a href="mailto:info@loadlc.com">info@loadlc.com</a>
-                </li>
-              </ul>
-            </>
+      <div className="text-black bg-white from-primary ">
+       <div className="">
+         <Image src={logo} alt= "" className="p-10 w-[30rem]" />
+       </div>
+       <div className="grid md:grid-cols-5 gap-10 space-y-8 px-10">
+       <div className="col-span-1">
+         <div className="flex flex-col space-y-4 md:py-8">
+          <div className="text-lg font-bold">
+            Company
           </div>
-
-          <div className="h-px mt-16 mb-8 opacity-25 bg-gradient-to-r from-slate-200 to-white" />
-
-          <div className="flex items-baseline justify-between text-sm font-light">
-            <p>&copy; 2023 Logistics Coordinators. All Rights Reserved.</p>
-
-            <a
-              href="https://www.linkedin.com/company/logistics-coordinators/"
-              className="hidden sm:block"
-            >
-              <Linkedin
-                size={20}
-                strokeWidth={1.5}
-                className="mr-2 transition-all duration-300 hover:scale-110"
-              />
-            </a>
+         {company.map((company, index) => (
+          <div key={index} className="text-left font-normal text-sm">
+            {company}
+            </div>
+         ))}
+         </div>
+       </div>
+       <div className="col-span-1">
+         <div className="flex flex-col space-y-4">
+          <div className="text-lg font-bold">
+            Services
           </div>
-        </div>
+         {Services.map((services, index) => (
+          <div key={index} className="text-left font-normal text-sm">
+            {services}
+            </div>
+         ))}
+         </div>
+       </div>
+       <div className="col-span-1">
+         <div className="flex flex-col space-y-4">
+          <div className="text-lg font-bold">
+            Digital Marketing
+          </div>
+         {DigitalMarketing.map((marketing, index) => (
+          <div key={index} className="text-left font-normal text-sm">
+            {marketing}
+            </div>
+         ))}
+         </div>
+       </div>
+       <div className="col-span-1">
+         <div className="flex flex-col space-y-4">
+          <div className="text-lg font-bold">
+            MLM Software
+          </div>
+         {MLMSoftware.map((software, index) => (
+          <div key={index} className="text-left font-normal text-sm">
+            {software}
+            </div>
+         ))}
+         </div>
+       </div>
+       <div className="col-span-1">
+  <div className="flex flex-col space-y-4">
+    <div className="text-lg font-bold">
+      Contact
+    </div>
+    <div className="flex flex-row space-x-4">
+      <Image src={call} alt= "" />
+   <div className="text-left font-normal text-sm">
+      +91 99999999
+   </div>
+   </div>
+   <div className="flex flex-row space-x-4">
+      <Image src={call} alt= "" />
+   <div className="text-left font-normal text-sm">
+      +91 99999999
+   </div>
+   </div>
+   <div className="flex flex-row space-x-4">
+      <Image src={call} alt= "" />
+      <Image src={call} alt= "" />
+      <Image src={call} alt= "" />
+      <Image src={call} alt= "" />
+   </div>
+  </div>
+</div>
+
+       </div>
+       <div className="text-center text-slate-700 p-10">@ 2019 MLM Consultant Asia | All rights reserved </div>
       </div>
     </footer>
   );

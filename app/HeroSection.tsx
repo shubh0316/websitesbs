@@ -5,7 +5,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
      <div className="flex md:flex-row flex-col">
-        <div className="flex flex-row space-y-4 pt-40 pl-10">
+        <div className="flex flex-row space-y-4 pt-10 pl-5">
              <div className="">
                    <h3 className="text-orange-600 font-bold text-lg pb-4">DIGITAL AGENCY -</h3>
                    <h3 className="text-4xl leading-tight font-bold md:w-1/2 pb-4">An agency for all your business needs.</h3>
@@ -18,7 +18,6 @@ const HeroSection = () => {
         <div className="mt-20">
             <Image src={image1} alt="hero"  /> 
         </div>
-
      </div>
     
   );

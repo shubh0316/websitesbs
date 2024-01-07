@@ -25,15 +25,15 @@ function WhatWeDoSection() {
         <div className='md:col-span-1 col-span-2'>  
            <div className="flex flex-col p-10  bg-white justify-start space-y-5">
                 <Image src={logo1} alt="svg1"  />
-                <h3 className='text-xl font-bold'>Affordable Website</h3>
-                <h3 className='text-lg font-normal text-slate-700'>Exceptional value for money is what we strive to achieve with all our services.</h3>
+                <h3 className='text-xl font-bold'>MLM Software</h3>
+                <h3 className='text-lg font-normal text-slate-700'>We develop all kinds of Multi Level Marketing (MLM) website and software.</h3>
            </div>
         </div>
         <div className='md:col-span-1 col-span-2'>  
            <div className="flex flex-col p-10  bg-white justify-start space-y-5">
                 <Image src={logo1} alt="svg1"  />
-                <h3 className='text-xl font-bold'>Affordable Website</h3>
-                <h3 className='text-lg font-normal text-slate-700'>Exceptional value for money is what we strive to achieve with all our services.</h3>
+                <h3 className='text-xl font-bold'>eCommerce site</h3>
+                <h3 className='text-lg font-normal text-slate-700'>We cna update optimise and maage your website and online presence.</h3>
            </div>
         </div>
         <div className='md:col-span-1 col-span-2'>  

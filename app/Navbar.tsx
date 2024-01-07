@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Container from "./container";
+import menu from "@/assets/svg/menu (1).svg";
+import companyLogo from "@/assets/MLMLogo.png";
 
 
 const navlinks = [
@@ -38,18 +40,18 @@ export function MobileNav() {
     <>
       <div className="flex py-4 items-baseline relative sm:hidden">
        
-        <figure className="mx-auto">
-          {/* <Image
-            src={logoImg}
+        <figure className=" py-2">
+          <Image
+            src={companyLogo}
             className="object-contain"
             alt="logo"
             height={40}
 
             quality={100}
-          /> */}
+          />
         </figure>
         <div className="text-black absolute -right-14 xm:right-8 top-5">
-          {/* <Image onClick={() => setOpen((o) => !o)} src={menuImg} alt="menu" /> */}
+          <Image onClick={() => setOpen((o) => !o)} src={menu} alt="menu" />
         </div>
       </div>
       {open && (
@@ -67,16 +69,10 @@ export function LoginButton() {
     <ul>  
     <li>  
     <Link
-     href="login"
-     className= "px-6 py-1 rounded-full text-sm transition-all ease-in-out hover:scale-110 hover:text-orange-600"
-   >
-    Login
-   </Link>
-    <Link
       href="#contact"
-      className="border border-orange-600 px-6 py-1 rounded-full text-sm transition-all ease-in-out hover:bg-orange-600 hover:text-white hover:scale-110"
+      className="border border-blue-600 text-white bg-blue-600 px-6 py-3 rounded-full text-sm transition-all ease-in-out hover:bg-blue-600 hover:text-white hover:scale-110"
     >
-      Contact
+      +91 9555557222
     </Link>
    
    </li>
@@ -90,13 +86,13 @@ export function DesktopNav() {
   return (
     <div className="py-6 items-center justify-between relative hidden sm:flex">
       <figure>
-        {/* <Image
-          src={logoImg}
+        <Image
+          src={companyLogo}
           className="object-contain p-2"
           alt="logo"
-          height={55}
+          height={20}
           quality={100}
-        /> */}
+        />
       </figure>
       <ul className="flex space-x-6">
         {navlinks.map((link) => (
