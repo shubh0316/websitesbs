@@ -14,7 +14,7 @@ function WhatWeDoSection() {
                We are providing following best services.
             </div>
         </div>
-      <div className="grid grid-cols-2 gap-8 p-10 font-sans">
+      <div className="grid grid-cols-2 gap-8 p-8 font-sans">
         <div className='md:col-span-1 col-span-2 '>  
            <div className="flex flex-col p-10 rounded-2xl bg-white justify-start space-y-5">
                 <Image src={logo1} alt="svg1"  />
