@@ -2,8 +2,8 @@ import React from 'react';
 
 function AboutSection() {
     return (
-        <div className="bg-slate-200 py-20">  
-        <div className="grid grid-cols-2 md:gap-10 p-20 bg-white">
+        <div className="bg-slate-100 py-20">  
+        <div className="grid grid-cols-2 md:gap-4 p-20 bg-white">
             <div className="md:col-span-1 ">
                 <div className="text-2xl font-bold">
                     About Us

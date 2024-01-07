@@ -8,23 +8,23 @@ import { useState } from "react";
 function HaveAnyQuestionSection() {
   const faqsData = [
     {
-      question: "What is LC's Fleet Management System (FMS)?",
-      answer: "LC's Fleet Management System (FMS) is an advanced software solution designed to transform fleet management processes, emphasizing safety and compliance. This comprehensive platform integrates collision reports, inspection reports, and conviction reports, enabling fleet owners and managers to proactively mitigate risks, streamline operations, and uphold Canadian safety regulations.",
+      question: "How long are you contracts?",
+      answer: "You have the option to pay per month, every half a year or every year, across all of our packages. You can change your billing cycle at any time.",
       isOpen: false,
     },
     {
-      question: "How does the FMS dashboard benefit fleet managers?",
-      answer: "The FMS dashboard serves as a centralized hub of information, providing real-time visibility and actionable insights to fleet managers. This feature-rich dashboard offers a comprehensive overview of fleet operations, including safety ratings and violation rates. It empowers managers to make informed decisions, engage in proactive management, and maintain compliance with regulatory requirements.",
+      question: "Is it easy to upgrade or downgrade my package?",
+      answer: "You have the option to pay per month, every half a year or every year, across all of our packages. You can change your billing cycle at any time.",
       isOpen: false,
     },
     {
-      question: "What sets LC's FMS apart from traditional fleet management systems?",
-      answer: "LC's FMS goes beyond conventional fleet management by offering a specialized feature to efficiently handle collision conviction and inspection data. This powerful capability enables fleet managers to monitor, analyze, and mitigate risks associated with collisions and inspections. The system ensures enhanced safety, regulatory compliance, and operational excellence through data-driven insights.",
+      question: "Do I need web hosting in addition to my MLM Consultant Asia account?",
+      answer: "You have the option to pay per month, every half a year or every year, across all of our packages. You can change your billing cycle at any time.",
       isOpen: false,
     },
     {
-      question: "How does the FMS help in managing drivers and vehicles?",
-      answer: "LC's FMS offers a dedicated mechanic's dashboard that allows for flexible scheduling adjustments and real-time pre-trip inspections monitoring. Drivers can promptly request repairs, with immediate access to mechanics and emergency backup support. The system simplifies safety renewals, compliance tracking, work order management, and inventory tracking, contributing to smoother operations and regulatory adherence.",
+      question: "Are there any hidden costs with MLM Consultant Asia?",
+      answer: "You have the option to pay per month, every half a year or every year, across all of our packages. You can change your billing cycle at any time.",
       isOpen: false,
     },
   ];
@@ -36,7 +36,7 @@ function HaveAnyQuestionSection() {
   };
 
   return (
-    <div className='bg-slate-200 text-center'>
+    <div className='bg-slate-100 text-center'>
       <div className="flex flex-col py-10">
         <div className="text-2xl font-extrabold">
           HAVE ANY QUESTIONS?
@@ -45,12 +45,12 @@ function HaveAnyQuestionSection() {
           We are providing the following best services.
         </div>
       </div>
-      <div className="flex flex-col items-center">
-        <div className="grid gap-4 text-2xl items-center text-bold md:ml-10 ">
+      <div className="flex flex-col items-center ">
+        <div className="grid gap-4 text-2xl items-center text-bold md:ml-10 mb-10">
           {faqsData.map((faq, index) => (
             <div
               key={index}
-              className={`grid gap-4 text-lg col-span-2 text-balance bg-white rounded-xl bg-white-300 px-8 md:px-8 md:py-[3%] md:items-end shadow-xl ${openIndex === index ? "mb-3" : "mb-2"
+              className={`grid gap-4 text-lg col-span-2 font-sans text-balance bg-white rounded-xl bg-white-300 px-8 md:px-8 md:py-[3%] md:items-end shadow-xl ${openIndex === index ? "mb-3" : "mb-2"
                 }`}
             >
               <div
@@ -67,7 +67,7 @@ function HaveAnyQuestionSection() {
                 </div>
               </div>
               {openIndex === index && (
-                <div className="flex font-normal text-[#5C5C5C] max-w-2xl duration-300 overflow-hidden">
+                <div className="flex font-normal text-[#5C5C5C] max-w-xl text-left duration-300 overflow-hidden">
                   {faq.answer}
                 </div>
               )}
