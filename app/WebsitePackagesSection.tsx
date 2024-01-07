@@ -471,15 +471,15 @@ export default function WebsitePackagesSection() {
         <span className="bg-orange-500  text-white p-2 text-center px-[7rem] md:px-[8rem] rounded-t-2xl">Most Popular</span>
 
         <div className="rounded-xl  shadow-lg flex flex-col md:gap-4  px-8 md:px-8 py-6">
-          <div className="md:text-2xl text-xl text-semibold text-center mt-5 font-sans">
+          <div className="md:text-2xl text-xl text-semibold text-left mt-5 font-sans">
             Basic Website Package
           </div>
-          <div className="md:text-md text-sm text-semibold text-left mt-4 font-sans">
+          <div className="md:text-md text-sm text-semibold  text-left mt-4 font-sans">
             Business Startup Package
           </div>
           <div>
             {" "}
-            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$499.99</span>
+            <span className="md:text-2xl  text-xl text-bold  text-left mt-4 font-sans ">$499.99</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
                View Package
           </div>      
