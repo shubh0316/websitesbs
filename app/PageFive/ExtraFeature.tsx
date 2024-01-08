@@ -2,17 +2,17 @@ import React from 'react';
 
 const ExtraFeature = () => {
   const tableData = [
-    { serialNo: 1, features: 'Lorem ipsum dolor sit amet', cost: '$100' },
-    { serialNo: 2, features: 'Consectetur adipiscing elit', cost: '$150' },
-    { serialNo: 3, features: 'Sed do eiusmod tempor incididunt', cost: '$200' },
-    { serialNo: 4, features: 'Sed do eiusmod tempor incididunt', cost: '$300' },
-    { serialNo: 5, features: 'Sed do eiusmod tempor incididunt', cost: '$400' },
-    { serialNo: 6, features: 'Sed do eiusmod tempor incididunt', cost: '$500' },
-    { serialNo: 7, features: 'Sed do eiusmod tempor incididunt', cost: '$600' },
-    { serialNo: 8, features: 'Sed do eiusmod tempor incididunt', cost: '$700' },
-    { serialNo: 9, features: 'Sed do eiusmod tempor incididunt', cost: '$700' },
-    { serialNo: 10, features: 'Sed do eiusmod tempor incididunt', cost: '8200' },
-    { serialNo: 11, features: 'Sed do eiusmod tempor incididunt', cost: '9200' },
+    { serialNo: 1, features: 'Staff Login Panel (Multi Staff/Admin Login)', cost: '$300' },
+    { serialNo: 2, features: 'e-Wallet (My E-Wallet, Pin Purchase, Fund Transfer, E-Wallet Report)', cost: '$250' },
+    { serialNo: 3, features: 'Multi-Currency (Multi Currency for website and member area)', cost: '$200' },
+    { serialNo: 4, features: 'Payment Gateway integration (Affiliate can purchase the product using their credit card/debit card)', cost: '$150' },
+    { serialNo: 5, features: 'SMS integration (The system is able to send automated SMS to the user’s mobile on various actions & activities to update the user on his gains & transactions)', cost: '$100' },
+    { serialNo: 6, features: 'SSL Activation (Secure Website with single domain)', cost: '$110' },
+    { serialNo: 7, features: 'Auto Payment System (Auto Payout deduction on payout cycle)', cost: '$210' },
+    { serialNo: 8, features: 'OpenCart Integration (E-commerce Shopping Cart Software)', cost: '$999' },
+    { serialNo: 9, features: 'Repurchase System (Product Repurchase, inventory management integration for MLM)', cost: '$300' },
+    { serialNo: 10, features: 'Franchise System (Basic franchise panel for MLM web Application integration.)', cost: '$300' },
+    { serialNo: 11, features: 'Adv. Franchise System (Advanced franchise/CNF panel for MLM web Application integration.)', cost: '$600' },
   ];
 
   return (
@@ -28,7 +28,7 @@ const ExtraFeature = () => {
           <thead>
             <tr>
               <th className="w-1/12 border border-gray-300 p-2 rounded-tl-lg">Serial No.</th>
-              <th className="w-6/12 border border-gray-300 p-2">Features</th>
+              <th className="w-6/12 border text-left border-gray-300 p-2 text-xl">Add On Modules/Softwares Integration</th>
               <th className="w-2/12 border border-gray-300 p-2 rounded-tr-xl rounded-tl-xl">Cost</th>
             </tr>
           </thead>
