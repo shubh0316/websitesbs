@@ -9,10 +9,10 @@ import companyLogo from "@/assets/MLMLogo.png";
 
 const navlinks = [
   { title: "Home", destination: "/" },
-  { title: "Online Services", destination: "/PageTwo" },
-  { title: "Web Portals", destination: "/PageThree" },
-  { title: "Digital Marketing", destination: "/PageFour" },
-  { title: "MLM Services", destination: "/PageFive" },
+  { title: "Online Services", destination: "/OnlineServices" },
+  { title: "Web Portals", destination: "/WebPortals" },
+  { title: "Digital Marketing", destination: "/DigitalMarketing" },
+  { title: "MLM Services", destination: "/MLMServices" },
 ];
 
 function MobileNavExtended() {
