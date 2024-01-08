@@ -21,7 +21,8 @@
     "react-icons": "^4.12.0",
     "react-wrap-balancer": "^1.1.0",
     "tailwind-merge": "^2.2.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "use-media": "^1.5.0"
   },
   "devDependencies": {
     "@types/node": "^20",
