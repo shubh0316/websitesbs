@@ -1,7 +1,10 @@
 "use client"
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import Container from '../container';
 
 const ComparePackageSection = () => {
+  const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
+
   const features = [
     'Feature 1',
     'Feature 2',
@@ -17,37 +20,36 @@ const ComparePackageSection = () => {
   const MobileView = () => {
     return (
     
-   
-        <div className="mt-8 bg-white   space-y-20">
-            <div className="my-8 bg-slate-100">
-      <div className="flex flex-col text-center gap-y-5 py-10">
-        <div className="text-2xl font-bold">EXTRA FEATURES</div>
-        <div className="text-sm font-normal leading-tight">
-          We are providing the following best services.
-        </div>
+      
+        <div className="mt-4 bg-white space-y-6 overflow-x-hidden">
+            <div className="flex flex-col text-center gap-y-5 py-10">
+          <div className="text-2xl font-bold">OUR FEATURES</div>
+          <div className="text-sm font-normal leading-tight">
+            We are providing the following best services.
+          </div>
+          <div> 
+          </div>
       </div>
-      </div>
-        <table className="w-full">
+        <table className="w-lg ">
           <thead>
             <tr>
-              <th className="text-lg font-normal md:font-bold p-3">Startup $349.99</th>
-              <th className="text-lg font-normal md:font-bold p-3">Basic $549.99</th>
-              <th className="text-lg font-normal md:font-bold p-3">Standard $799.99</th>
-              <th className="text-lg font-normal md:font-bold p-3">Business $1099.99</th>
+              <th className="text-md font-normal md:font-bold p-3">Startup $349.99</th>
+              <th className="text-md font-normal md:font-bold p-3">Basic $549.99</th>
+              <th className="text-md font-normal md:font-bold p-3">Standard $799.99</th>
+              <th className="text-md font-normal md:font-bold p-3">Business $1099.99</th>
             </tr>
           </thead>
           <tbody>
           <tr className="text-sm text-left  p-8 font-bold  w-full">
-            <td colSpan={4} className="px-4">
-              Features are listed below
+            <td colSpan={4} className="px-4 p-2">
+              Features
             </td>
           </tr>
-          <tr className="text-sm text-left  p-8 font-semibold  w-full">
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
             <td colSpan={4} className="bg-gray-200 px-4">
-              hello friends
-            </td>
-          </tr>
-           
+            Facebook FAN Page
+            </td>   
+          </tr>        
               <tr>
                 <td className="text-sm p-3 text-green-500"> ✔ </td>
                 <td className="text-green-500 p-3"> ✔ </td>
@@ -56,26 +58,452 @@ const ComparePackageSection = () => {
               </tr>
               <tr className="text-sm text-left  p-4 font-bold  w-full">
           </tr>
-          <tr className="text-sm text-left  p-4 font-semibold  w-full">
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
             <td colSpan={4} className="bg-gray-200 px-4">
-              hello friends
-            </td>
-          </tr>
-           
+            LinkedIn Company Page
+            </td>   
+          </tr>        
               <tr>
                 <td className="text-sm p-3 text-green-500"> ✔ </td>
                 <td className="text-green-500 p-3"> ✔ </td>
                 <td className="text-green-500 p-3"> ✔ </td>
                 <td className="text-green-500 p-3"> ✔ </td>
               </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-4 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Twitter Profile
+            </td>
+          </tr>
+          <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Pinterest Profile
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Cover Photo Creation
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Banner/Poster Posting
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+              Video Promotions
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Youtube
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Metacafe
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-4 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Daily Motion
+            </td>
+          </tr>
+          <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Vimeo
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Break.com
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Others
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+              Blog
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Keyword Related Blog Content Writing
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Blog Creation in Wordpress
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-4 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Blogger
+            </td>
+          </tr>
+          <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Other blog websites
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Blog Posting
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+              Press Releases
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Keyword Oriented Press Releases Writing
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Submission to Press Release Distribution 
+            sites
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+              Article Promotion
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Keyword Oriented Article Writing
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            No of Article Submission Websites
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+            Social Bookmarking
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Website URLs Submission
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Blog URLs Submission
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Press Releases URLs Submission
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Video URLs Submission
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+            Additional
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Latest Online Marketing Trend updation
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+            Analysis Report
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Weekly Activity Report
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Monthly Activity Report
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-bold  w-full">
+            <td colSpan={4} className="px-4 p-2">
+            Customer support
+            </td>
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            E-mail
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+          <tr className="text-sm text-left  p-8 font-normal  w-full">
+            <td colSpan={4} className="bg-gray-200 px-4">
+            Telephone
+            </td>   
+          </tr>        
+              <tr>
+                <td className="text-sm p-3 text-green-500"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+                <td className="text-green-500 p-3"> ✔ </td>
+              </tr>
+              <tr className="text-sm text-left  p-4 font-bold  w-full">
+          </tr>
+        
+          
+        
+          
+           
+            
           </tbody>
+          
         </table>
       </div>
+      
     );
   };
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 600);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   return (
     <div>
-      <div className="my-8 bg-slate-100">
+       {isMobileView ? <MobileView /> : null}
+       <div className={`my-8 bg-slate-100 ${isMobileView ? 'hidden' : ''}`}>
         <div className="flex flex-col text-center gap-y-5 py-10">
           <div className="text-2xl font-bold">OUR FEATURES</div>
           <div className="text-sm font-normal leading-tight">
