@@ -13,15 +13,15 @@ function SectionTwo() {
             </div>
         </div>
     
-    <div className="grid  grid-rows-3 md:items-center  p-10 sm:space-y-4 ">
+    <div className="grid  md:items-center   ">
         <div className='p-8  md:row-span-1 bg-white rounded-lg'>  
        <div className="font-bold text-orange-600 text-2xl">
               Fully Dynamic Package
        </div>
-       <div className='grid md:grid-cols-3 gap-4 md:gap-20 p-4'>
-        <div className="grid col-span-1 ">
+       <div className='grid md:grid-cols-3 md:gap-4 md:p-4'>
+        <div className="grid md:col-span-1 ">
             <div className='flex flex-col space-y-4 '>
-            <div className="flex flex-row  justify-content items-baseline gap-2 md:gap-4">
+            <div className="flex flex-row  md:justify-content md:items-baseline gap-2 md:gap-4">
               <span className="text-md">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -303,8 +303,8 @@ function SectionTwo() {
        <div className="font-bold text-orange-600 text-2xl">
               Backend User Feature 
        </div>
-       <div className='grid md:grid-cols-3 gap-4 md:gap-20 p-4'>
-        <div className="grid col-span-1 ">
+       <div className='grid md:grid-cols-3 md:gap-4  md:p-4'>
+        <div className="grid md:col-span-1">
             <div className='flex flex-col space-y-4 font-sans'>
             <div className="flex flex-row  justify-content items-baseline gap-2 md:gap-4">
               <span className="text-md">
@@ -590,7 +590,7 @@ function SectionTwo() {
        <div className="font-bold text-orange-600 text-2xl">
               Backend Admin Feature
        </div>
-       <div className='grid md:grid-cols-3 gap-4 md:gap-20 p-4'>
+       <div className='grid md:grid-cols-3 mb-40 gap-4 md:gap-20 p-4'>
         <div className="grid col-span-1 ">
             <div className='flex flex-col space-y-4   justify-content space-between'>
             <div className="flex flex-row  justify-content items-baseline gap-2 md:gap-4 font-sans">
