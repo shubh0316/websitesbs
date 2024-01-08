@@ -27,7 +27,7 @@ const Description = () => {
           SMO is defined as a process which we performed to properly ensure
           that your website attains vast visibility in social media and gets
           free traffic. It is from multiple points of view like viral
-          advertising where a site is made prevalent through "verbal" made
+          advertising where a site is made prevalent through &apos;verbal&apos; made
           using organizing in social bookmarking, blogging, podcasting, music
           sharing, photo sharing, and online product reviews, to give some
           examples.
