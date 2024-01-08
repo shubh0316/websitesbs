@@ -5,7 +5,7 @@ import WhatWeDoSection from './WhatWeDoSection'
 import WebsitePackagesSection from './WebsitePackagesSection'
 import HaveAnyQuestionSection from './HaveAnyQuestionSection'
 import MarqueeSection from './MarqueeSection'
-import GetQoute from './GetQoute'
+import GetQoute from './Qoute/GetQoute'
 
 
 export default function Home() {

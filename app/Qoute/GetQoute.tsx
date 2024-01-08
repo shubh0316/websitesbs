@@ -3,7 +3,7 @@ import React from "react";
 const GetQoute = () => {
   return (
     <>
-      <div id="qoute" className="my-10">
+      <div  className="my-10">
         <div className="flex flex-col text-center gap-y-5 py-10">
           <div className="text-2xl font-bold">EXTRA FEATURES</div>
           <div className="text-md font-normal leading-tight">
