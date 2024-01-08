@@ -5,18 +5,6 @@ import Container from '../container';
 const ComparePackageSection = () => {
   const [isMobileView, setIsMobileView] = useState(window.innerWidth <= 600);
 
-  const features = [
-    'Feature 1',
-    'Feature 2',
-    'Feature 3',
-    'Feature 4',
-    'Feature 5',
-    'Feature 6',
-    'Feature 7',
-    'Feature 8',
-    'Feature 9',
-    'Feature 10',
-  ];
   const MobileView = () => {
     return (
     
@@ -491,14 +479,18 @@ const ComparePackageSection = () => {
   };
   useEffect(() => {
     const handleResize = () => {
-      setIsMobileView(window.innerWidth <= 600);
+      if (typeof window !== 'undefined') {
+        setIsMobileView(window.innerWidth <= 600);
+      }
     };
 
-    window.addEventListener('resize', handleResize);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
   return (
     <div>
