@@ -5,7 +5,7 @@ import SectionThree from './SectionThree'
 
 function page() {
   return (
-    <div>
+    <div >
       <SectionOne />
       <SectionTwo />
       <SectionThree />

@@ -7,7 +7,7 @@ import image3 from "@/assets/webApplication.png";
 function SectionOne() {
   return (
     <div>
-      <div className="grid grid-cols-2 md:gap-20 gap-10 p-8 font-sans">
+      <div id="service" className="grid grid-cols-2 md:gap-20 gap-10 p-8 font-sans">
         <div className="grid md:col-span-1 col-span-2 font-sans">
           <div className="flex flex-col gap-4">
             <div className="font-bold">SOFTWARE DEVELOPMENT</div>

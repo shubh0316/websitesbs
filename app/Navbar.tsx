@@ -8,10 +8,11 @@ import companyLogo from "@/assets/MLMLogo.png";
 
 
 const navlinks = [
-  { title: "About", destination: "#about" },
-  { title: "Services", destination: "#services" },
-  { title: "Specialties", destination: "#specialties" },
-  { title: "Why Choose Us", destination: "#choose" },
+  { title: "Home", destination: "/" },
+  { title: "Online Services", destination: "/PageTwo" },
+  { title: "Web Portals", destination: "/PageThree" },
+  { title: "Digital Marketing", destination: "/PageFour" },
+  { title: "MLM Services", destination: "/PageFive" },
 ];
 
 function MobileNavExtended() {
@@ -84,7 +85,7 @@ export function LoginButton() {
 
 export function DesktopNav() {
   return (
-    <div className="py-6 items-center justify-between relative hidden sm:flex">
+    <div className="py-6 -ml-[4rem] items-center justify-between relative hidden sm:flex">
       <figure>
         <Image
           src={companyLogo}

@@ -5,6 +5,7 @@ import WhatWeDoSection from './WhatWeDoSection'
 import WebsitePackagesSection from './WebsitePackagesSection'
 import HaveAnyQuestionSection from './HaveAnyQuestionSection'
 import MarqueeSection from './MarqueeSection'
+import GetQoute from './GetQoute'
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
          <WhatWeDoSection />
          <WebsitePackagesSection />
          <HaveAnyQuestionSection />
+         <GetQoute />
      </>
   )
 }

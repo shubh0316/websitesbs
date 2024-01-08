@@ -3,7 +3,7 @@ import React from "react";
 const GetQoute = () => {
   return (
     <>
-      <div className="my-10">
+      <div id="qoute" className="my-10">
         <div className="flex flex-col text-center gap-y-5 py-10">
           <div className="text-2xl font-bold">EXTRA FEATURES</div>
           <div className="text-md font-normal leading-tight">
@@ -15,32 +15,32 @@ const GetQoute = () => {
             <div className="flex flex-col space-y-8">
               
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Name</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="Name"
                   />
                 </div>
               </div>
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Email</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="Email"
                   />
                 </div>
               </div>
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Phone Number</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="service"
                   />
                 </div>
               </div>
@@ -50,32 +50,32 @@ const GetQoute = () => {
             <div className="flex flex-col space-y-8">
               
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Service</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="attachment"
                   />
                 </div>
               </div>
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Attach your Plan Details</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="Phone Number"
                   />
                 </div>
               </div>
               <div className="text-start">
-                <h3 className="text-md mb-2 mt-2">Heading 1</h3>
+                <h3 className="text-md mb-2 mt-2 font-bold">Your Requirement</h3>
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
-                    placeholder="Placeholder 1"
+                    placeholder="Requirement"
                   />
                 </div>
               </div>

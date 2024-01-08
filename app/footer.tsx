@@ -3,8 +3,9 @@ import { Icons } from "@/components/Icons";
 import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import logo from "@/assets/MLMLogo.png";
-import call from "@/assets/svg/Footer - Contact Us - Call Icon.svg";
+import call from "@/assets/svg/Phone.svg";
 import { FC } from "react";
+import whatsapp from "@/assets/svg/Whatsapp.svg";
 
 const Footer: FC = () => {
 
@@ -114,17 +115,12 @@ const MLMSoftware = [
    </div>
    </div>
    <div className="flex flex-row space-x-4">
-      <Image src={call} alt= "" />
+      <Image src={whatsapp} alt= "" />
    <div className="text-left font-normal text-sm">
       +91 99999999
    </div>
    </div>
-   <div className="flex flex-row space-x-4">
-      <Image src={call} alt= "" />
-      <Image src={call} alt= "" />
-      <Image src={call} alt= "" />
-      <Image src={call} alt= "" />
-   </div>
+   
   </div>
 </div>
 
