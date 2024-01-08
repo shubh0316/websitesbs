@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 import image1 from "@/assets/pagethree.png"
 
 function SectionOne() {
@@ -20,7 +20,7 @@ function SectionOne() {
               <p className="font-semibold text-md">Language Used :-</p>
               <p className=" text-md text-slate-600">HTML, DHTML, JavaScript, ASP.NET, MS SQL Database</p>
          </div>
-         <Image src={image1} alt="middle" layout="responsive" width={100} height={50} className='w-full h-auto rounded-2xl' />
+         <Image src={image1} alt="middle" layout="responsive" width={100} height={50} className="w-full h-auto rounded-2xl" />
 
       </div>
    

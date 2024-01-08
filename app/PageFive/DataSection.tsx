@@ -18,7 +18,7 @@ const DataSection = () => {
             distributors must "balance" their two down line legs to receive
             commissions. Balancing legs typically requires that the number of
             sales from one down line leg constitute no more than a specified
-            percentage of the distributor's total sales.
+            percentage of the distributor&apos;s total sales.
           </span>
         </div>
       </div>

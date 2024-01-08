@@ -510,7 +510,7 @@ const BackOfficeSection = () => {
                   </defs>
                 </svg>
               </span>
-              <span>Member's Profile</span>
+              <span>Member&apos;s Profile</span>
             </div>
             <div className="px-8 space-y-2">
               <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
@@ -544,7 +544,7 @@ const BackOfficeSection = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>View Member's profile</span>
+                <span>View Member&apos;s profile</span>
               </div>
             </div>
             <div className="px-8 space-y-2">
@@ -579,7 +579,7 @@ const BackOfficeSection = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>Update Member's Profile</span>
+                <span>Update Member&apos;s Profile</span>
               </div>
             </div>
             <div className="px-8 space-y-2">
@@ -649,7 +649,7 @@ const BackOfficeSection = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>Change Member's Transaction Password</span>
+                <span>Change Member&apos;s Transaction Password</span>
               </div>
             </div>
             <div className="px-8 space-y-2">
@@ -714,7 +714,7 @@ const BackOfficeSection = () => {
                   </defs>
                 </svg>
               </span>
-              <span>Member's Genealogy Report</span>
+              <span>Member&apos;s Genealogy Report</span>
             </div>
             <div className="px-8 space-y-2">
               <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
@@ -853,7 +853,7 @@ const BackOfficeSection = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>View Direct ID of Member's</span>
+                <span>View Direct ID of Member&apos;s</span>
               </div>
             </div>
             <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
@@ -883,7 +883,7 @@ const BackOfficeSection = () => {
                   </defs>
                 </svg>
               </span>
-              <span>Member's Commission Report</span>
+              <span>Member&apos;s Commission Report</span>
             </div>
             <div className="px-8 space-y-2">
               <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
@@ -1023,7 +1023,7 @@ const BackOfficeSection = () => {
                     </defs>
                   </svg>
                 </span>
-                <span>View Member's Withdrew Amount</span>
+                <span>View Member&apos;s Withdrew Amount</span>
               </div>
             </div>
             <div className="px-8 space-y-2">
@@ -1152,7 +1152,7 @@ const BackOfficeSection = () => {
                   </defs>
                 </svg>
               </span>
-              <span>Member's Profile</span>
+              <span>Member&apos;s Profile</span>
             </div>
             <div className="px-8 space-y-2">
               <div className="flex flex-row justify-content items-baseline gap-2 md:gap-4">
