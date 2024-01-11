@@ -10,9 +10,12 @@ import companyLogo from "@/assets/MLMLogo.png";
 const navlinks = [
   { title: "Home", destination: "/" },
   { title: "Online Services", destination: "/OnlineServices" },
+  { title: "Cooperate Services", destination: "/CoperateServices" },
   { title: "Web Portals", destination: "/WebPortals" },
   { title: "Digital Marketing", destination: "/DigitalMarketing" },
   { title: "MLM Services", destination: "/MLMServices" },
+ 
+
 ];
 
 function MobileNavExtended() {
@@ -67,17 +70,14 @@ export function MobileNav() {
 export function LoginButton() {
   return (
     <>      
-    <ul>  
-    <li>  
+  
     <Link
       href="#contact"
-      className="border border-blue-600 text-white bg-blue-600 px-6 py-3 rounded-full text-sm transition-all ease-in-out hover:bg-blue-600 hover:text-white hover:scale-110"
+      className="border border-blue-600 text-white bg-blue-600 md:px-1 md:py-1.5 lg:px-8 lg:py-3 rounded-full text-sm transition-all ease-in-out hover:bg-blue-600 hover:text-white hover:scale-110"
     >
-      +91 9555557222
+      Contact
     </Link>
-   
-   </li>
-   </ul>
+  
    </>
 
   );
@@ -85,7 +85,7 @@ export function LoginButton() {
 
 export function DesktopNav() {
   return (
-    <div className="py-6 -ml-[4rem] items-center justify-between relative hidden sm:flex">
+    <div className="py-6 items-center justify-between relative hidden sm:flex">
       <figure>
         <Image
           src={companyLogo}
@@ -95,11 +95,11 @@ export function DesktopNav() {
           quality={100}
         />
       </figure>
-      <ul className="flex space-x-6">
+      <ul className="flex space-x-2 lg:space-x-4">
         {navlinks.map((link) => (
           <li key={link.title}>
             <Link
-              className="hover:border-b-2 py-1 hover:text-orange-600 px-1 border-fms-orange tracking-wide leading-tight transition-all ease-in-out"
+              className="hover:border-b-2 py-1 hover:text-orange-600 px-1 border-orange-600 tracking-wide leading-tight transition-all ease-in-out"
               href={link.destination}
             >
               {link.title}
@@ -114,11 +114,11 @@ export function DesktopNav() {
 
 function Navbar() {
   return (
-    <div className="max-w-6xl mx-auto px-12">
-      <Container>  
+    <div className="max-w-10xl mx-auto px-8">
+ 
       <MobileNav />
       <DesktopNav />
-      </Container>
+   
     </div>
   );
 }
