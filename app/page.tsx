@@ -11,13 +11,13 @@ import GetQoute from './Qoute/GetQoute'
 export default function Home() {
   return (
      <>
-         <HeroSection />
-         <MarqueeSection />
-         <AboutSection />
-         <WhatWeDoSection />
-         <WebsitePackagesSection />
-         <HaveAnyQuestionSection />
-         <GetQoute />
+         {/* <HeroSection /> */}
+         {/* <MarqueeSection /> */}
+         {/* <AboutSection /> */}
+         {/* <WhatWeDoSection /> */}
+         {/* <WebsitePackagesSection /> */}
+         {/* <HaveAnyQuestionSection /> */}
+         {/* <GetQoute /> */}
      </>
   )
 }
