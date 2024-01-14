@@ -13,14 +13,14 @@ const HeroSection = () => {
   return (
     <div className="overflow-x-auto">  
      <div className="flex md:flex-row flex-col ">
-        <div className="flex flex-row space-y-4 pt-10 pl-5">
+        <div className="flex flex-row space-y-4 pt-10 ">
        
-             <div className="md:py-40 p-10 max-w-4xl">
-                   <h3 className="text-orange-600 font-bold text-lg pb-4  ">DIGITAL AGENCY -</h3>
-                   <h3 className="text-4xl leading-tight font-bold md:w-full pb-4">An agency for all your business needs.</h3>
-                   <h3 className="text-md text-slate-700 md:w-full">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor posuere vel venenatis eu sit massa volutpat massa rhoncus odio feugiat tellus, elit massa sed.</h3>
+             <div className="md:py-40 md:p-10 max-w-4xl">
+                   <h3 className="p-2 text-orange-600 font-bold text-lg pb-4  ">DIGITAL AGENCY -</h3>
+                   <h3 className="p-2 text-4xl leading-tight font-bold md:w-full pb-4">An agency for all your business needs.</h3>
+                   <h3 className="p-2 text-md text-slate-700">MLM Consultant Asia is a leading India based Software Company focused on delivering the best and most cost-effective solutions to our clients. Mini InfoTech provide variety of software services, Software Development Services, Web Development Services, Web Designing Services, MLM Software and website, Hosting services and much more. We have served our clients with Comprehensive Web Solutions - right From Strategic Planning and Online Marketing Decisions to the actual Designing, Development and Implementation with testing of the Projects, and our Support Team is always there for the Maintenance and Enhancement of the Project.</h3>
                    <div className="py-4">  
-                   <Link href="/Qoute"  className="bg-blue-600 rounded-full px-5 py-2.5">Get a Quote</Link>
+                   <Link href="/Qoute"  className="bg-blue-600 text-white rounded-full px-5 py-2.5">Get a Quote</Link>
                    </div>
              </div>
             

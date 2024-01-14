@@ -13,7 +13,7 @@ const Footer: FC = () => {
  
   return (
     <footer>
-      <div className="text-black bg-white from-primary overflow-x-hidden">
+      <div className="text-black bg-white from-primary overflow-x-hidden mt-10">
        <div className="p-4">
          <Image src={logo} alt= "" className="md:p-10 md:w-[30rem] w-[20rem]" />
        </div>

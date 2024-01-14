@@ -6,18 +6,20 @@ import WebsitePackagesSection from './WebsitePackagesSection'
 import HaveAnyQuestionSection from './HaveAnyQuestionSection'
 import MarqueeSection from './MarqueeSection'
 import GetQoute from './Qoute/GetQoute'
+import StatsSection from './StatsSection'
 
 
 export default function Home() {
   return (
      <>
-         {/* <HeroSection /> */}
-         {/* <MarqueeSection /> */}
-         {/* <AboutSection /> */}
-         {/* <WhatWeDoSection /> */}
-         {/* <WebsitePackagesSection /> */}
-         {/* <HaveAnyQuestionSection /> */}
-         {/* <GetQoute /> */}
+         <HeroSection /> 
+          <MarqueeSection /> 
+          <AboutSection /> 
+          <StatsSection />
+          <WhatWeDoSection /> 
+          <WebsitePackagesSection /> 
+          <HaveAnyQuestionSection /> 
+          <GetQoute />
      </>
   )
 }

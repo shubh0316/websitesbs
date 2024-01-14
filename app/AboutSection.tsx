@@ -21,7 +21,7 @@ const SectionAboutUs = () => {
                 <div className="absolute"></div>
                 <div className="h-fit w-fit rounded-2xl overflow-hidden">
                     <motion.div
-                        className="object-cover h-[28rem] w-[25rem]  rounded-md overflow-hidden bg-center"
+                        className="object-cover h-[28rem] w-[25rem] mt-4  rounded-md overflow-hidden bg-center"
                         whileInView={{ x: 0, opacity: 1 }}
                         viewport={{ once: true }}
                         initial={{ x: "-100%", opacity: 0 }}

@@ -4,7 +4,7 @@ import { Balancer } from "react-wrap-balancer";
 
 export default function WebsitePackagesSection() {
   return (
-    <div className="flex  mx-auto flex-col  gap-4 justify-content">
+    <div className="flex  mx-auto flex-col  gap-4 justify-content mt-10">
 
       <div className="text-center md:text-2xl sm:text-2xl text-xl font-sans font-bold mt-8">
         <Balancer>

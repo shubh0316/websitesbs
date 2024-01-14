@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 function WhatWeDoSection() {
   return (
-    <div className='bg-slate-100'>
+    <div className='bg-slate-100 mt-10'>
         <div className="flex flex-col text-center gap-y-5 py-4">
             <div className="text-2xl font-bold font-sans">
                WHAT WE DO?
