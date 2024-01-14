@@ -24,7 +24,7 @@ const StatsSection = () => {
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-2xl mt-2">Companies consulted</p>
+            <p className="text-xl mt-2">Companies consulted</p>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const StatsSection = () => {
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-2xl mt-2">Global Presence</p>
+            <p className="text-xl mt-2">Global Presence</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const StatsSection = () => {
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-2xl mt-2">Years of experience</p>
+            <p className="text-xl mt-2">Years of experience</p>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ const StatsSection = () => {
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-2xl mt-2">Products Registered</p>
+            <p className="text-xl mt-2">Products Registered</p>
           </div>
         </div>
       </div>

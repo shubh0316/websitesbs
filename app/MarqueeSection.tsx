@@ -18,7 +18,7 @@ const data = [
 
 const MarqueeSection = () => {
   return (
-    <div className="sm:overflow-hidden mt-10">
+    <div className="sm:overflow-hidden ">
       <div className="mt-4 items-center">
         <div className="bg-white p-3 md:p-10 mt-20 max-w-sm rounded-xl md:max-w-7xl mx-auto overflow-x-hidden">
           <div className="marquee-container overflow-x-hidden whitespace-nowrap">

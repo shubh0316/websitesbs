@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <div className="overflow-x-auto">  
      <div className="flex md:flex-row flex-col ">
-        <div className="flex flex-row space-y-4 pt-10 ">
+        <div className="flex flex-row space-y-4  ">
        
              <div className="md:py-40 md:p-10 max-w-4xl">
                    <h3 className="p-2 text-orange-600 font-bold text-lg pb-4  ">DIGITAL AGENCY -</h3>
@@ -25,7 +25,7 @@ const HeroSection = () => {
              </div>
             
         </div>
-        <div className="md:mt-20">
+        <div className="mt-20">
             <Image src={image1} alt="hero"  /> 
         </div>
      </div>

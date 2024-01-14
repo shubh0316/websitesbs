@@ -468,7 +468,7 @@ export default function WebsitePackagesSection() {
           </div>  
         </div>
         <div> 
-        <span className="bg-orange-500  text-white p-2 text-center px-[7rem] md:px-[8rem] rounded-t-2xl">Most Popular</span>
+        <div className="bg-orange-500  text-white p-2 text-center px-[7rem]    md:px-[8rem]  rounded-t-2xl">Most Popular</div>
 
         <div className="rounded-xl  shadow-lg flex flex-col md:gap-4  px-8 md:px-8 py-6">
           <div className="md:text-2xl text-xl text-semibold text-left mt-5 font-sans">
