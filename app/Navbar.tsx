@@ -10,10 +10,11 @@ import companyLogo from "@/assets/MLMLogo.png";
 const navlinks = [
   { title: "Home", destination: "/" },
   { title: "Cooperate Services", destination: "/CoperateServices" },
-  { title: "MLM Services", destination: "/OnlineServices" },
+  { title: "MLM Softwares", destination: "/MLMSoftwares" },
   { title: "Digital Marketing", destination: "/DigitalMarketing" },
-  { title: "Web development", destination: "/WebPortals" },
-  { title: "eCommerce", destination: "/MLMServices" },
+  { title: "Web development", destination: "/WebDevelopment" },
+  { title: "eCommerce", destination: "/WebPortals" },
+  
  
 
 ];

@@ -5,7 +5,7 @@ const DataSection = () => {
     <div>
       <div className="overflow-x-hidden font-sans">
         <div className="p-10 text-left flex flex-col space-y-4">
-          <div className="font-bold text-2xl md:text-4xl">MLM BINARY PLAN SOFTWARE</div>
+          <div className="font-bold text-2xl md:text-4xl">MLM SOFTWARES</div>
           <p className="text-black font-semibold text-2xl">Since 2009 MLM Consultants Asia has thrived to set high standards in software development and MLM Consulting.</p>
           <span className="text-slate-700 text-xl mt-10 ">
           Grow Your Direct Selling Business With Best MLM Software.
