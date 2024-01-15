@@ -10,7 +10,7 @@ const imageUrls = [
   "/logo6.png",
   "/logo7.png",
   "/logo8.png",
-  "/logo9.png",
+  "/logo69.png",
   "/logo10.png",
   "/logo11.png",
   "/logo12.png",
