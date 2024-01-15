@@ -29,7 +29,7 @@ const FlagSection = () => {
           alt={`Image ${index + 1}`}
           width={20}
           height={40}
-          className="w-5 h-5 rounded-full m-2"
+          className="w-5 h-5 rounded-full m-2 object-cover"
         />
       ))}
     </div>
