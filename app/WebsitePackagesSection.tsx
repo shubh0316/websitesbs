@@ -6,7 +6,7 @@ export default function WebsitePackagesSection() {
   return (
     <div className="flex  mx-auto flex-col  gap-4 justify-content mt-10">
 
-      <div className="text-center md:text-2xl sm:text-2xl text-xl font-sans font-bold mt-8">
+      <div className="text-center md:text-3xl sm:text-2xl text-xl font-sans font-bold mt-8">
         <Balancer>
         COMPARE WEBSITE PACKAGES
         </Balancer>
@@ -24,7 +24,7 @@ export default function WebsitePackagesSection() {
             {" "}
             <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$259.99</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
-               View Package
+               Get a Qoute
           </div>      
           </div>
           <div className="border border-gray-200 "></div>
@@ -481,7 +481,7 @@ export default function WebsitePackagesSection() {
             {" "}
             <span className="md:text-2xl  text-xl text-bold  text-left mt-4 font-sans ">$499.99</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
-               View Package
+              Get a Qoute
           </div>      
           </div>
           <div className="border border-gray-200 "></div>
@@ -936,7 +936,7 @@ export default function WebsitePackagesSection() {
             {" "}
             <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$699.99</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
-               View Package
+              Get a Qoute
           </div>      
           </div>
           <div className="border border-gray-200 "></div>
@@ -1390,7 +1390,7 @@ export default function WebsitePackagesSection() {
             {" "}
             <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$999.99</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
-               View Package
+               Get a Qoute
           </div>      
           </div>
           <div className="border border-gray-200 "></div>

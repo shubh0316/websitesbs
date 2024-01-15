@@ -4,13 +4,12 @@ import Container from "../container";
 const SectionTwo = () => {
   return (
     <>
-      <div className="bg-slate-200">
+      
         <div className="flex flex-col text-center gap-y-5 py-10">
-          <div className="text-2xl font-bold">OUR SPECIALTY</div>
-          <div className="text-lG font-normal leading-tight">
-            We are providing following best services.
-          </div>
+          <div className="text-3xl font-bold">OUR EXPERTISE</div>
+          
         </div>
+        <div className="bg-slate-50">
         <div className="grid md:grid-cols-3 gap-6 p-10 overflow-hidden">
           <div className="grid col-span-2 rounded-2xl md:col-span-1 bg-white font-sans">
             <div className="flex flex-col space-y-8 p-10">

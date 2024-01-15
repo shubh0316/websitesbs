@@ -5,14 +5,11 @@ const BackOfficeSection = () => {
     <div>
       <div className="my-4 bg-slate-100 font-sans">
         <div className="flex flex-col text-center gap-y-5 py-10">
-          <div className="text-2xl font-bold">EXTRA FEATURES</div>
-          <div className="text-md font-normal leading-tight">
-            We are providing the following best services.
-          </div>
+          <div className="text-2xl font-bold">BACK OFFICE FEATURE</div>
         </div>
-        <div className="md:ml-20">     
-        <div className="flex flex-col ml-2 md:flex-row gap-4  md:ml-[2rem] font-sans">
-          <div className="flex flex-col space-y-2 md:w-[40rem] w-fit bg-white rounded-2xl p-10">
+        <div className="flex flex-col justify-between items-center p-10">     
+        <div className="flex flex-col  md:flex-row gap-4  font-sans">
+          <div className="flex flex-col space-y-2  w-fit bg-white rounded-2xl p-10">
             <div className="text-2xl font-bold uppercase text-orange-600 ">
               ADMIN BACK OFFICE
             </div>
@@ -1062,7 +1059,7 @@ const BackOfficeSection = () => {
               </div>
             </div>
             </div>       
-          <div className="flex flex-col space-y-2 md:w-[40rem] w-fit bg-white rounded-2xl p-10 font-sans">
+          <div className="flex flex-col space-y-2 md:w-[30rem] w-fit bg-white rounded-2xl p-10 font-sans">
             <div className="text-2xl font-bold  uppercase text-orange-600 ">
               MEMBER BACK OFFICE
             </div>

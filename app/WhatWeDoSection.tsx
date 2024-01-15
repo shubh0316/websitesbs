@@ -14,12 +14,10 @@ function WhatWeDoSection() {
   return (
     <div className='bg-slate-50 mt-10'>
         <div className="flex flex-col text-center gap-y-5 py-4">
-            <div className="text-2xl font-bold font-sans">
-               WHAT WE DO?
+            <div className="text-3xl font-bold font-sans">
+            MLM CONSULTANT ASIA SERVICES
             </div>
-            <div className="text-lG font-normal leading-tight font-sans">
-               We are providing following best services.
-            </div>
+     
         </div>
       <div className="grid grid-cols-2 gap-8 p-8 font-sans">
         <div className='md:col-span-1 col-span-2 '>  

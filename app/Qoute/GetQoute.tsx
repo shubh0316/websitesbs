@@ -5,12 +5,10 @@ const GetQoute = () => {
     <>
       <div  className="my-10">
         <div className="flex flex-col text-center gap-y-5 py-10">
-          <div className="text-2xl font-bold">EXTRA FEATURES</div>
-          <div className="text-md font-normal leading-tight">
-            We are providing the following best services.
-          </div>
+          <div className="text-2xl md:text-4xl font-bold">QUOTATION</div>   
         </div>
-        <div className="grid md:grid-cols-2 gap-10 md:ml-40  p-20 max-w-6xl">
+        <div className="grid md:grid-cols-2 gap-10  p-10 max-w-4xl">
+         
           <div className="col-span-1">
             <div className="flex flex-col space-y-8">
               
@@ -86,7 +84,8 @@ const GetQoute = () => {
         <div className="w-40 border border-blue-500 bg-white text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
                Submit
           </div>  
-</div>
+          </div>
+
       </div>
     </>
   );

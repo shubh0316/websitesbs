@@ -41,8 +41,8 @@ const SectionAboutUs = () => {
                 </div>
 
                 <div className="flex flex-col md:items-start items-center justify-between gap-4 px-5 w-full md:w-1/2">
-                <h3 className="font-bold block text-center   text-2xl">
-                About Us
+                <h3 className="font-bold block text-center    text-3xl">
+                ABOUT US
             </h3>
                     <div className="overflow-hidden">
                         <motion.h1

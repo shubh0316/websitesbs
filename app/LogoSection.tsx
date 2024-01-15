@@ -26,7 +26,7 @@ const MarqueeSection = () => {
   return (
     <div className="sm:overflow-hidden ">
         <div className="text-center font-sans font-bold p-4 text-4xl">
-         Our Partners
+         PARTNERS AND TECHNOLOGY
       </div>
       <div className="mt-4 items-center">
         <div className="bg-slate-300 p-3 md:p-10 mt-10 max-w-sm rounded-xl md:max-w-7xl mx-auto overflow-x-hidden">

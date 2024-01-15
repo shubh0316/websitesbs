@@ -36,18 +36,16 @@ const data = [
 const SectionOne = () => {
   return (
     <div>
-      <div
+      
+        <div className="flex flex-col text-center gap-y-5 py-10">
+          <div className="text-2xl font-bold">OUR SPECIALTY</div>        
+        </div>
+        <div
         className="bg-slate-200"
         style={{
           background: 'var(--Gradient-Orange-gradient-20, linear-gradient(90deg, #FF4E50 0%, #F9D423 100%))',
         }}
       >
-        <div className="flex flex-col text-center gap-y-5 py-10">
-          <div className="text-2xl font-bold">OUR SPECIALTY</div>
-          <div className="text-lG font-normal leading-tight">
-            We are providing the following best services.
-          </div>
-        </div>
         <div className="grid md:grid-cols-3 gap-6 p-10 overflow-hidden">
           {data.map((categoryData, index) => (
             <div
@@ -90,7 +88,7 @@ const SectionOne = () => {
                           </defs>
                         </svg>
                       </span>
-                      <span className="text-sm">{service}</span>
+                      <span className="text-xl">{service}</span>
                     </div>
                   ))}
                 </div>

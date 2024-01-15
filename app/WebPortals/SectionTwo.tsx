@@ -7,10 +7,7 @@ function SectionTwo() {
         <div className="flex flex-col text-center gap-y-5 py-10">
             <div className="text-2xl font-bold">
                OUR FEATURES
-            </div>
-            <div className="text-md text-slate-600 font-normal leading-tight">
-               We are providing following best services.
-            </div>
+            </div>       
         </div>
     
     <div className="grid  md:items-center   ">

@@ -44,13 +44,13 @@ const Footer: FC = () => {
     <div className="flex flex-row space-x-4">
       <Image src={call} alt= "" />
    <div className="text-left font-normal text-sm">
-      +91 99999999
+       +66 99 118 9401
    </div>
    </div>
    <div className="flex flex-row space-x-4">
       <Image src={whatsapp} alt= "" />
    <div className="text-left font-normal text-sm">
-      +91 99999999
+        +63 967 384 5698
    </div>
    </div>
    
@@ -62,7 +62,10 @@ const Footer: FC = () => {
             Address
           </div>
          <div className="text-md space-y-2 text-start">
-               asdasfsdf sdfsdf sdfsdf sdfsdfsd fsdfsd fsdfsdfsd
+         No 12, Soi Pridi 26 Wattana, Sukhumvit 71 Bangkok 10110 Thailand.
+         </div>
+         <div className="text-md space-y-2 text-start">
+         Unit 302 3/Flr., Jollibee Plaza, F. Ortigas Jr. Road, Ortigas Center, Pasig City, Philippines 1600
          </div>
          </div>
        </div>
@@ -72,7 +75,7 @@ const Footer: FC = () => {
             Partners
           </div>        
          </div>
-         <div className="flex  space-x-4">  
+         <div className="flex  space-x-4 object-cover">  
          <Image src={logo1} alt="" width={96} />
          <Image src={logo2} alt="" width={96} />
          </div>
@@ -80,7 +83,7 @@ const Footer: FC = () => {
 
 
        </div>
-       <div className="text-left md:text-center md:p-8 text-slate-700 text-sm ">@ 2019 MLM Consultant Asia | All rights reserved </div>
+       <div className="text-left md:text-center md:p-8 text-slate-700 text-sm ">@ 2024 MLM Consultant Asia | All rights reserved </div>
       </div>
     </footer>
   );
