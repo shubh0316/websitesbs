@@ -10,7 +10,7 @@ const StatsSection = () => {
   return (
     <>
       <div className="text-center font-sans font-bold p-4 text-3xl">
-        Awards winning MLM Consultant
+        Award Winning MLM Consultant
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 p-10 md:p-20 text-white mt-10" style={backgroundStyle}>
         {/* First Stat */}
@@ -39,7 +39,7 @@ const StatsSection = () => {
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-xl mt-2">Global Presence</p>
+            <p className="text-xl mt-2">Global Office</p>
           </div>
         </div>
 

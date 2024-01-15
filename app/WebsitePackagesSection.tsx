@@ -22,7 +22,7 @@ export default function WebsitePackagesSection() {
           </div>
           <div>
             {" "}
-            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$259.99</span>
+            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$499</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
                Get a Qoute
           </div>      
@@ -479,7 +479,7 @@ export default function WebsitePackagesSection() {
           </div>
           <div>
             {" "}
-            <span className="md:text-2xl  text-xl text-bold  text-left mt-4 font-sans ">$499.99</span>
+            <span className="md:text-2xl  text-xl text-bold  text-left mt-4 font-sans ">$699</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
               Get a Qoute
           </div>      
@@ -934,7 +934,7 @@ export default function WebsitePackagesSection() {
           </div>
           <div>
             {" "}
-            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$699.99</span>
+            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$999</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
               Get a Qoute
           </div>      
@@ -1388,7 +1388,7 @@ export default function WebsitePackagesSection() {
           </div>
           <div>
             {" "}
-            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$999.99</span>
+            <span className="md:text-2xl  text-xl text-bold text-left mt-4 font-sans ">$1999</span>
             <div className="w-full border font-sans border-blue-500 bg-white mt-8 mb-8 md:mt-12 text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
                Get a Qoute
           </div>      
