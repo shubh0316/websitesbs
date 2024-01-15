@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const FlagSection = () => {
 
@@ -22,7 +23,7 @@ const FlagSection = () => {
   return (
     <div className="flex justify-center" style={backgroundStyle}>
       {imageUrls.map((imageUrl, index) => (
-        <img
+        <Image
           key={index}
           src={imageUrl.url}
           alt={`Image ${index + 1}`}

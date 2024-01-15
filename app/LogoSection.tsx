@@ -34,7 +34,7 @@ const MarqueeSection = () => {
             <Marquee speed={300} pauseOnHover={true} autoFill={true}>
               {imageUrls.map((value, index) => (
                 <div key={index} className="flex items-center px-8 gap-2">
-                   <img
+                   <Image
           key={index}
           src={value.url}
           alt={`Image ${index + 1}`}
