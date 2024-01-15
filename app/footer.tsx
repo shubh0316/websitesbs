@@ -14,7 +14,7 @@ const Footer: FC = () => {
  
   return (
     <footer>
-      <div className="text-black bg-white from-primary overflow-x-hidden mt-10">
+      <div className="text-black bg-white from-primary overflow-x-hidden mt-20 md:mt-10">
        <div className="p-4">
          <Image src={logo} alt= "" className="md:p-10 md:w-[30rem] w-[20rem]" />
        </div>

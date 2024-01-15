@@ -15,7 +15,7 @@ const GetQuote = () => {
                 <div className="rounded-full p-4 shadow-md">
                   <input
                     type="text"
-                    className="w-80 h-full outline-none"
+                    className="w-full h-full outline-none"
                     placeholder="Name"
                   />
                 </div>
