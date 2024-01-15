@@ -83,7 +83,7 @@ const Footer: FC = () => {
 
 
        </div>
-       <div className="text-left md:text-center md:p-8 text-slate-700 text-sm ">@ 2024 MLM Consultant Asia | All rights reserved </div>
+       <div className="text-center md:text-center md:p-8 text-slate-700 text-sm ">©2024 MLM Consultant Asia | All rights reserved</div>
       </div>
     </footer>
   );
