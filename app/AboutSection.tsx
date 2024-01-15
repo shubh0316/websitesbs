@@ -44,18 +44,7 @@ const SectionAboutUs = () => {
                 <h3 className="font-bold block text-center    text-3xl">
                 ABOUT US
             </h3>
-                    <div className="overflow-hidden">
-                        <motion.h1
-                            whileInView={{ y: 0 }}
-                            initial={{ y: "100%" }}
-                            transition={{ delay: 0.5, duration: 0.5 }}
-                            className="text-gray-500  md:text-left text-center text-lg"
-                        >
-                            <Balancer>
-                                MLM Consultant Asia is a leading Direct Selling and Networking Marketing Consultant firm in Asia. Our work spans across 10 major markets in Asia, our primary area of consulting include corporate setup and software services focused on delivering the best and most cost-effective solutions to our clients.
-                            </Balancer>
-                        </motion.h1>
-                    </div>
+                   
                     <p className="text-gray-500 md:text-left text-center  text-lg ">
                         MLM Consultant Asia also provides variety of software services, Software Development Services, Web Development Services, Web Designing Services, MLM Software and website, Hosting services and much more. We have served our clients with Comprehensive Web Solutions - right From Strategic Planning and Online Marketing Decisions to the actual Designing, Development and Implementation with testing of the Projects, and our Support Team is always there for the Maintenance and Enhancement of the Project.
                     </p>
