@@ -4,10 +4,10 @@ const GetQuote = () => {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="my-10 mx-auto max-w-4xl">
-        <div className="flex flex-col text-center gap-y-5 py-10">
+        <div className="flex flex-col text-center gap-y-2 md:gap-y-5 py-10">
           <div className="text-2xl md:text-4xl font-bold">QUOTATION</div>
         </div>
-        <div className="grid md:grid-cols-2 gap-10 p-5 ">
+        <div className="grid md:grid-cols-2 gap-10 ">
           <div className="col-span-1">
             <div className="flex flex-col space-y-8">
               <div className="text-start">
