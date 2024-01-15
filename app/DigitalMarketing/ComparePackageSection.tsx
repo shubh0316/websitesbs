@@ -17,10 +17,10 @@ const MobileView = () => {
       <table className="w-lg ">
         <thead>
           <tr>
-            <th className="text-md font-normal p-3">Startup $349.99</th>
-            <th className="text-md font-normal p-3">Basic $549.99</th>
-            <th className="text-md font-normal p-3">Standard $799.99</th>
-            <th className="text-md font-normal p-3">Business $1099.99</th>
+            <th className="text-md font-normal p-3">Startup $699</th>
+            <th className="text-md font-normal p-3">Basic $899</th>
+            <th className="text-md font-normal p-3">Standard $1099</th>
+            <th className="text-md font-normal p-3">Business $1599</th>
           </tr>
         </thead>
         <tbody>
@@ -478,7 +478,7 @@ const DesktopView = () => {
   return (
     <div>
       
-    <div className= "my-8 bg-slate-100">
+    <div className= "my-8 ">
      <div className="flex flex-col text-center gap-y-5 py-10">
        <div className="text-2xl font-bold">OUR FEATURES</div>
        <div className="text-sm font-normal leading-tight">
@@ -619,7 +619,7 @@ const DesktopView = () => {
            <div className="col-span-1 border p-4 flex flex-col items-center">
              <div className="p-10">  
            <div className="text-lg font-bold mb-4">Startup</div>
-             <div className="text-4xl font-bold">$349.99</div>
+             <div className="text-4xl font-bold">$699</div>
              
              </div>
              <div className="mt-[rem]"> 
@@ -721,7 +721,7 @@ const DesktopView = () => {
            <div className="col-span-1 border p-4 flex flex-col items-center ">
              <div className="p-10">  
            <div className="text-lg font-bold mb-4">Basic</div>
-             <div className="text-4xl font-bold">$549.99</div>
+             <div className="text-4xl font-bold">$899</div>
              </div>
              <div className="mt-[rem]"> 
                <div  className="text-green-500 mt-2 p-2">
@@ -820,7 +820,7 @@ const DesktopView = () => {
            <div className="col-span-1 border p-4 flex flex-col items-center">
              <div className="p-10">  
            <div className="text-lg font-bold mb-4">Standard</div>
-             <div className="text-4xl font-bold">$799.99</div>
+             <div className="text-4xl font-bold">$1099</div>
              </div>
              <div className="mt-[rem]"> 
                <div  className="text-green-500 mt-2 p-2">
@@ -918,7 +918,7 @@ const DesktopView = () => {
            <div className="col-span-1 border p-4 flex flex-col items-center">
              <div className="p-10">  
            <div className="text-lg font-bold mb-4">Business</div>
-             <div className="text-4xl font-bold">$19.99</div>
+             <div className="text-4xl font-bold">$1599</div>
              </div>
            
              <div className="mt-[rem]"> 
