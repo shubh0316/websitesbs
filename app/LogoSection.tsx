@@ -36,7 +36,7 @@ const LogoSection = () => {
       <div className="text-center font-sans font-bold p-4 text-4xl text-white">
         PARTNERS AND TECHNOLOGY
       </div>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center md:p-10">
         {imageUrls.map((logo, index) => (
           <div key={index} className="m-4">
             <Image src={logo.url} alt={`Logo ${index + 1}`} width={180} height={180} />
