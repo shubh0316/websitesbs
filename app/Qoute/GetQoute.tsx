@@ -2,7 +2,7 @@ import React from "react";
 
 const GetQuote = () => {
   return (
-    <div className="flex justify-center items-center h-screen  bg-slate-50 ">
+    <div className="flex justify-center items-center h-screen  md:bg-slate-50 ">
       <div className="my-10 mx-auto max-w-4xl">
         <div className="flex flex-col text-center md:gap-y-5 py-10">
           <div className="hidden md:block text-xl md:text-4xl font-bold">QUOTATION</div>
@@ -77,7 +77,7 @@ const GetQuote = () => {
             </div>
           </div>
         </div>
-        <div className="mt-4 flex justify-center bg-slate-50">
+        <div className="mt-4 flex justify-center ">
           <div className="w-40 border border-blue-500 bg-white text-center text-blue-500 py-2 transition duration-500 ease-in-out hover:scale-110 rounded-full hover:bg-blue-500 hover:text-white">
             Submit
           </div>
