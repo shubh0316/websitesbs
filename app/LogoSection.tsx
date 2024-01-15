@@ -3,23 +3,23 @@ import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const imageUrls = [
-  "logo1.png",
-  "logo2.png",
-    "logo4.png",
-    "logo5.svg",
-    "logo6.png",
-    "logo7.png",
-    "logo8.jpeg",
-    "logo9.png",
-    "logo10.jpeg",
-    "logo11.jpeg",
-    "logo12.jpeg",
-    "logo13.jpeg",
-    "logo14.jpeg",
-    "logo15.jpeg",
-    "logo16.jpeg",
-    "logo17.jpeg",
-    "logo18.jpeg", 
+  "/logo1.png",
+  "/logo2.png",
+    "/logo4.png",
+    "/logo5.svg",
+    "/logo6.png",
+    "/logo7.png",
+    "/logo8.jpeg",
+    "/logo9.png",
+    "/logo10.jpeg",
+    "/logo11.jpeg",
+    "/logo12.jpeg",
+    "/logo13.jpeg",
+    "/logo14.jpeg",
+    "/logo15.jpeg",
+    "/logo16.jpeg",
+    "/logo17.jpeg",
+    "/logo18.jpeg", 
 ].map((url) => ({ url }));
 
 const MarqueeSection = () => {
@@ -38,7 +38,8 @@ const MarqueeSection = () => {
           key={index}
           src={value.url}
           alt={`Image ${index + 1}`}
-          className="w-fit h-40 object-cover"
+          width={96}
+          height={40}
         />
                 </div>
               ))}
