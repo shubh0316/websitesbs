@@ -3,16 +3,18 @@ import HeroSection from './HeroSection'
 import AboutSection from './AboutSection'
 import WhatWeDoSection from './WhatWeDoSection'
 import WebsitePackagesSection from './WebsitePackagesSection'
-import HaveAnyQuestionSection from './HaveAnyQuestionSection'
+import LogoSection from './LogoSection'
 import MarqueeSection from './MarqueeSection'
 import GetQoute from './Qoute/GetQoute'
 import StatsSection from './StatsSection'
 import FlagSection from './FlagSection'
+import Unique from './UniqueSection'
 
 
 export default function Home() {
   return (
      <>
+        
          <HeroSection /> 
           <MarqueeSection /> 
           <AboutSection /> 
@@ -20,7 +22,8 @@ export default function Home() {
           
           <WhatWeDoSection /> 
           <WebsitePackagesSection /> 
-          <HaveAnyQuestionSection /> 
+          <LogoSection />      
+          <Unique />
           
      </>
   )

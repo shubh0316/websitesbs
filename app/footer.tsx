@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "@/assets/MLMLogo.png";
 import call from "@/assets/svg/Phone.svg";
 import logo1 from "@/assets/icon1footer.png";
+import logo2 from "@/assets/logo1.png";
 import { FC } from "react";
 import whatsapp from "@/assets/svg/Whatsapp.svg";
 
@@ -73,13 +74,13 @@ const Footer: FC = () => {
          </div>
          <div className="flex  space-x-4">  
          <Image src={logo1} alt="" width={96} />
-         <Image src={logo1} alt="" width={96} />
+         <Image src={logo2} alt="" width={96} />
          </div>
        </div>
 
 
        </div>
-       <div className="text-center p-8 text-slate-700 text-sm ">@ 2019 MLM Consultant Asia | All rights reserved </div>
+       <div className="text-left md:text-center md:p-8 text-slate-700 text-sm ">@ 2019 MLM Consultant Asia | All rights reserved </div>
       </div>
     </footer>
   );
