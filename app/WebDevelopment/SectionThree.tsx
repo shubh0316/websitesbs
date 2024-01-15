@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import image1 from "@/assets/MobileApplication.png";
+import image1 from "@/assets/blockchain.png";
 
 function SectionThree() {
   return (
