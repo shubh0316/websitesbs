@@ -27,7 +27,7 @@ const Description = () => {
                 As a leading SEO agency, we specialize in elevating your online
                 visibility to new heights. Our comprehensive SEO services in
                 India ensure that your target audience effortlessly finds what
-                they're searching for using relevant keywords.
+                they&apos;re searching for using relevant keywords.
               </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Description = () => {
                 As a top social media services company, we specialize in
                 unleashing the viral potential of your campaigns. With a deep
                 understanding of the pivotal role social media marketing plays
-                in today's digital ecosystem, we provide comprehensive social
+                in today&apos;s digital ecosystem, we provide comprehensive social
                 media marketing packages that deliver exceptional results.
               </p>
             </div>
@@ -62,7 +62,7 @@ const Description = () => {
                 As a top social media services company, we specialize in
                 unleashing the viral potential of your campaigns. With a deep
                 understanding of the pivotal role social media marketing plays
-                in today's digital ecosystem, we provide comprehensive social
+                in today&apos;s digital ecosystem, we provide comprehensive social
                 media marketing packages that deliver exceptional results.
               </p>
             </div>
