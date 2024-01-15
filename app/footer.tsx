@@ -4,8 +4,8 @@ import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import logo from "@/assets/MLMLogo.png";
 import call from "@/assets/svg/Phone.svg";
-import logo1 from "@/assets/icon1footer.png";
-import logo2 from "@/assets/logo1.png";
+import logo3 from "@/assets/logo3.png";
+import logo8 from "@/assets/logo8.png";
 import { FC } from "react";
 import whatsapp from "@/assets/svg/Whatsapp.svg";
 
@@ -14,7 +14,7 @@ const Footer: FC = () => {
  
   return (
     <footer>
-      <div className="text-black bg-white from-primary overflow-x-hidden mt-20 md:mt-10">
+      <div id="footer" className="text-black bg-white from-primary overflow-x-hidden mt-20 md:mt-10">
        <div className="p-4">
          <Image src={logo} alt= "" className="md:p-10 md:w-[30rem] w-[20rem]" />
        </div>
@@ -76,8 +76,8 @@ const Footer: FC = () => {
           </div>        
          </div>
          <div className="flex  space-x-4 object-cover">  
-         <Image src={logo1} alt="" width={96} />
-         <Image src={logo2} alt="" width={96} />
+         <Image src={logo3} alt="" width={96} />
+         <Image src={logo8} alt="" width={96} />
          </div>
        </div>
 

@@ -1,54 +1,50 @@
 import React from "react";
 import Image from "next/image";
-import Marquee from "react-fast-marquee";
 
 const imageUrls = [
   "/logo1.png",
   "/logo2.png",
-    "/logo4.png",
-    "/logo5.svg",
-    "/logo6.png",
-    "/logo7.png",
-    "/logo8.jpeg",
-    "/logo9.png",
-    "/logo10.jpeg",
-    "/logo11.jpeg",
-    "/logo12.jpeg",
-    "/logo13.jpeg",
-    "/logo14.jpeg",
-    "/logo15.jpeg",
-    "/logo16.jpeg",
-    "/logo17.jpeg",
-    "/logo18.jpeg", 
+  "/logo3.png",
+  "/logo4.png",
+  "/logo5.png",
+  "/logo6.png",
+  "/logo7.png",
+  "/logo8.png",
+  "/logo9.png",
+  "/logo10.png",
+  "/logo11.png",
+  "/logo12.png",
+  "/logo13.png",
+  "/logo14.png",
+  "/logo15.png",
+  "/logo16.png",
+  "/logo17.png",
+  "/logo18.png", 
+  "/logo19.png",
+  "/logo20.png",
+  "/logo21.png",
+  "/logo22.png",
+  "/logo23.png",
+  "/logo24.png",
+  "/logo25.png",
+  "/logo26.png"
 ].map((url) => ({ url }));
 
-const MarqueeSection = () => {
+const LogoSection = () => {
   return (
-    <div className="sm:overflow-hidden ">
-        <div className="text-center font-sans font-bold p-4 text-4xl">
-         PARTNERS AND TECHNOLOGY
+    <div className="sm:overflow-hidden" style={{ background: "linear-gradient(91.58deg, #101624 0%, #010203 100%)" }}>
+      <div className="text-center font-sans font-bold p-4 text-4xl text-white">
+        PARTNERS AND TECHNOLOGY
       </div>
-      <div className="mt-4 items-center">
-        <div className="bg-slate-300 p-3 md:p-10 mt-10 max-w-sm rounded-xl md:max-w-7xl mx-auto overflow-x-hidden">
-          <div className="marquee-container overflow-x-hidden whitespace-nowrap">
-            <Marquee speed={300} pauseOnHover={true} autoFill={true}>
-              {imageUrls.map((value, index) => (
-                <div key={index} className="flex items-center px-8 gap-2">
-                   <Image
-          key={index}
-          src={value.url}
-          alt={`Image ${index + 1}`}
-          width={96}
-          height={40}
-        />
-                </div>
-              ))}
-            </Marquee>
+      <div className="flex flex-wrap justify-center">
+        {imageUrls.map((logo, index) => (
+          <div key={index} className="m-4">
+            <Image src={logo.url} alt={`Logo ${index + 1}`} width={180} height={180} />
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 };
 
-export default MarqueeSection;
+export default LogoSection;

@@ -3,7 +3,7 @@ import React from 'react';
 
 const OnlineDemoSection: React.FC = () => {
   return (
-    <div className="bg-orange-500 p-8">
+    <div id="contact" className="bg-orange-500 p-8">
       <div className="max-w-6xl mx-auto bg-white p-10 rounded-2xl shadow-lg">
       <div className="flex flex-col text-center gap-y-5 py-10">
         <div className="text-2xl font-bold">ONLINE FREE DEMO</div>

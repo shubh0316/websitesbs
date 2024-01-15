@@ -73,7 +73,7 @@ export function LoginButton() {
     <>      
   
     <Link
-      href="#contact"
+      href="#footer"
       className="border border-blue-600 text-white bg-blue-600 px-4 py-2 md:px-1 md:py-1.5 lg:px-8 lg:py-3 rounded-full text-sm transition-all ease-in-out hover:bg-blue-600 hover:text-white hover:scale-110"
     >
       Contact
