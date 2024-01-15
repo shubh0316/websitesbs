@@ -7,6 +7,7 @@ import HaveAnyQuestionSection from './HaveAnyQuestionSection'
 import MarqueeSection from './MarqueeSection'
 import GetQoute from './Qoute/GetQoute'
 import StatsSection from './StatsSection'
+import FlagSection from './FlagSection'
 
 
 export default function Home() {
@@ -16,10 +17,11 @@ export default function Home() {
           <MarqueeSection /> 
           <AboutSection /> 
           <StatsSection />
+          
           <WhatWeDoSection /> 
           <WebsitePackagesSection /> 
           <HaveAnyQuestionSection /> 
-          <GetQoute />
+          
      </>
   )
 }
