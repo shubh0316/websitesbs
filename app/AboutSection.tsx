@@ -49,7 +49,7 @@ const SectionAboutUs = () => {
                         MLM Consultant Asia also provides variety of software services, Software Development Services, Web Development Services, Web Designing Services, MLM Software and website, Hosting services and much more. We have served our clients with Comprehensive Web Solutions - right From Strategic Planning and Online Marketing Decisions to the actual Designing, Development and Implementation with testing of the Projects, and our Support Team is always there for the Maintenance and Enhancement of the Project.
                     </p>
                     <p className="text-gray-500 md:text-left text-center  text-lg ">
-                        MLM Consultant Asia also conducts leaders trainings and Events for owners and leaders Across Asia. Contact us for more detail on how we can help you and server you better in this region.
+                        MLM Consultant Asia also conducts leaders trainings and Events for owners and leaders Across Asia. Contact us for more detail on how we can help you and serve you better in this region.
                     </p>
                 </div>
             </div>
