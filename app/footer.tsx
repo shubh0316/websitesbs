@@ -13,8 +13,9 @@ const Footer: FC = () => {
   return (
     <footer>
       <div id="footer" className="text-black bg-white from-primary overflow-x-hidden mt-20 md:mt-10">
-       <div className="p-4">
-         <Image src={logo} alt= "" className="md:p-10 md:w-[30rem] w-[20rem]" />
+       <div className="px-4">
+         <Image src={logo} alt= "" className="md:px-10 md:w-[30rem] w-[20rem]" />
+         <div className=" text-md text-gray-600 flex flex-row px-10 py-2">We are Software Company focused on delivering the best and most cost-effective solutions to our clients.</div>
        </div>
        <div className="grid md:grid-cols-4 gap-20 space-y-4 p-6 md:p-10 ">
        <div className="col-span-1">
@@ -25,7 +26,7 @@ const Footer: FC = () => {
           <div className="flex items-center space-x-2 ">
       <input
         type="email"
-        className="border border-gray-300 text-xs rounded-full md:px-1 px-4 py-2 w-fit"
+        className="border border-gray-300 text-md rounded-full md:px-8 px-4 py-2 w-fit"
         placeholder="Enter your email address"
       />
       <button className="bg-blue-500 text-white text-md px-4 py-2 rounded-full hover:bg-blue-600">
