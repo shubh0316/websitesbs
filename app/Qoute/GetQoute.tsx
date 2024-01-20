@@ -12,7 +12,7 @@ const GetQuote = () => {
             <div className="flex flex-col space-y-8">
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold">Name</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none "
@@ -22,7 +22,7 @@ const GetQuote = () => {
               </div>
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold">Email</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
@@ -32,7 +32,7 @@ const GetQuote = () => {
               </div>
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold ">Phone Number</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
@@ -46,7 +46,7 @@ const GetQuote = () => {
             <div className="flex flex-col space-y-8">
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold ">Service</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
@@ -56,7 +56,7 @@ const GetQuote = () => {
               </div>
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold">Attach your Plan Details</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none"
@@ -66,7 +66,7 @@ const GetQuote = () => {
               </div>
               <div className="text-start">
                 <h3 className="text-md mb-2 mt-2 font-bold">Your Requirement</h3>
-                <div className="rounded-full p-4 shadow-md bg-white">
+                <div className="rounded-full p-4 shadow-md bg-white border-2 border-gray-400">
                   <input
                     type="text"
                     className="w-full h-full outline-none"

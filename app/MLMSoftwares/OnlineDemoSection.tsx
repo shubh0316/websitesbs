@@ -14,7 +14,7 @@ const OnlineDemoSection: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-10">            
           <div className="col-span-1 text-start">
             <h3 className="text-md mb-2 font-bold">Name</h3>
-            <div className="rounded-full p-4 shadow-md">
+            <div className="rounded-full p-4 shadow-md border-2 border-gray-300 ">
               <input
                 type="text"
                 className="w-full h-full outline-none"
@@ -26,7 +26,7 @@ const OnlineDemoSection: React.FC = () => {
         
           <div className="col-span-1 text-start">
             <h3 className="text-md mb-2 font-bold">Email</h3>
-            <div className="rounded-full p-4 shadow-md">
+            <div className="rounded-full p-4 shadow-md border-2 border-gray-300 ">
               <input
                 type="text"
                 className="w-full h-full outline-none"
@@ -38,7 +38,7 @@ const OnlineDemoSection: React.FC = () => {
           {/* Input 3 */}
           <div className="col-span-1 text-start">
             <h3 className="text-md mb-2 font-bold">Phone Number</h3>
-            <div className="rounded-full p-4 shadow-md">
+            <div className="rounded-full p-4 shadow-md border-2 border-gray-300 ">
               <input
                 type="text"
                 className="w-full h-full"
@@ -50,7 +50,7 @@ const OnlineDemoSection: React.FC = () => {
           {/* Input 4 */}
           <div className="col-span-1 text-start">
             <h3 className="text-md mb-2 font-bold">Demo Request For</h3>
-            <div className="rounded-full p-4 shadow-md">
+            <div className="rounded-full p-4 shadow-md border-2 border-gray-300 ">
               <input
                 type="text"
                 className="w-full h-full outline-none"
