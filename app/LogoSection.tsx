@@ -39,7 +39,7 @@ const LogoSection = () => {
       <div className="flex flex-wrap justify-center md:p-10">
         {imageUrls.map((logo, index) => (
           <div key={index} className="m-4">
-            <Image src={logo.url} alt={`Logo ${index + 1}`} width={180} height={180} />
+            <Image src={logo.url} alt={`Logo ${index + 1}`} width={140} height={180} />
           </div>
         ))}
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Unique = () => {
     return(
         <>
-        <div className="flex flex-col gap-4 p-20 md:mt-40 bg-slate-50">  
+        <div className="flex flex-col gap-4 p-20 md:mt-10 bg-slate-50">  
         <div className="text-center justify-center font-sans font-bold text-2xl md:text-4xl  font-sans">
         What makes us unique in the Network Marketing Business?  
         </div>
