@@ -9,10 +9,11 @@ const StatsSection = () => {
 
   return (
     <>
-      <div className="text-center font-sans font-bold p-4 text-3xl">
+    <div style={backgroundStyle}>  
+      <div className="text-center text-white font-sans font-bold mt-4  p-5 text-4xl">
         Award Winning MLM Consultant
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 p-10 md:p-20 text-white mt-10" style={backgroundStyle}>
+      <div className="grid grid-cols-1 md:grid-cols-4 p-10 md:p-20 text-white " >
         {/* First Stat */}
         <div className="col-span-1 md:col-span-1">
           <div className="flex flex-col items-center">
@@ -20,11 +21,11 @@ const StatsSection = () => {
               start={0}
               end={50}
               duration={2}
-              className="text-3xl font-semibold"
+              className="text-5xl font-semibold"
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-xl mt-2">Companies consulted</p>
+            <p className="text-2xl mt-2">Companies consulted</p>
           </div>
         </div>
 
@@ -35,11 +36,11 @@ const StatsSection = () => {
               start={0}
               end={7}
               duration={2}
-              className="text-3xl font-semibold"
+              className="text-5xl font-semibold"
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-xl mt-2">Global Office</p>
+            <p className="text-2xl mt-2">Global Office</p>
           </div>
         </div>
 
@@ -50,11 +51,11 @@ const StatsSection = () => {
               start={0}
               end={16}
               duration={2}
-              className="text-3xl font-semibold"
+              className="text-5xl font-semibold"
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-xl mt-2">Years of experience</p>
+            <p className="text-2xl mt-2">Years of experience</p>
           </div>
         </div>
 
@@ -65,13 +66,14 @@ const StatsSection = () => {
               start={0}
               end={36}
               duration={2}
-              className="text-3xl font-semibold"
+              className="text-5xl font-semibold"
               enableScrollSpy={true}
               suffix="+"
             />
-            <p className="text-xl mt-2">Products Registered</p>
+            <p className="text-2xl mt-2">Products Registered</p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

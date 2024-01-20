@@ -20,7 +20,7 @@ const HeroSection = () => {
                    <h3 className="p-2 text-4xl leading-tight font-bold md:w-full pb-4">Consultant for all your business needs.</h3>
                    <h3 className="p-2 text-md text-slate-700">MLM Consultant Asia is a leading India-based software company focused on delivering the best and most cost-effective solutions to our clients. Mini InfoTech provides a variety of software services, including Software Development, Web Development, Web Designing, MLM Software, and website hosting services, among others. We have served our clients with comprehensive web solutions – from strategic planning and online marketing decisions to the actual designing, development, and implementation, including testing of the projects. Our support team is always available for the maintenance and enhancement of the project.</h3>
                    <div className="py-4 md:mt-8">  
-                   <Link href="/Qoute"  className="bg-blue-600 text-white rounded-full px-5 py-2.5">Get a Quote</Link>
+                   <Link href="/Qoute"  className="bg-blue-600 text-white rounded-full px-6 py-3.5 text-xl">Get a Quote</Link>
                    </div>
              </div>
             
