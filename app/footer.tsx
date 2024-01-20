@@ -10,8 +10,6 @@ import { FC } from "react";
 import whatsapp from "@/assets/svg/Whatsapp.svg";
 
 const Footer: FC = () => {
-
- 
   return (
     <footer>
       <div id="footer" className="text-black bg-white from-primary overflow-x-hidden mt-20 md:mt-10">
@@ -80,8 +78,6 @@ const Footer: FC = () => {
          <Image src={logo8} alt="" width={96} />
          </div>
        </div>
-
-
        </div>
        <div className="text-center md:text-center md:p-8 text-slate-700 text-sm ">©2024 MLM Consultant Asia | All rights reserved</div>
       </div>

@@ -18,8 +18,6 @@ const FlagSection = () => {
     const backgroundStyle = {
         background: "linear-gradient(91.58deg, #101624 0%, #010203 100%)",
       };
-
- 
   return (
     <div className="flex justify-center" style={backgroundStyle}>
       {imageUrls.map((imageUrl, index) => (
