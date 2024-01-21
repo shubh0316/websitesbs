@@ -482,7 +482,6 @@ const DesktopView = () => {
      <div className="flex flex-col text-center gap-y-5 py-10">
        <div className="text-2xl font-bold">OUR FEATURES</div>
        <div className="text-sm font-normal leading-tight">
-         We are providing the following best services.
        </div>
        <div> 
 
