@@ -11,7 +11,7 @@ export default function WebsitePackagesSection() {
         COMPARE WEBSITE PACKAGES
         </Balancer>
       </div>
-      <div className="text-slate-600 text-center text-lg font-sans">We are providing following best website package.</div>
+      <div className="text-slate-600 text-center text-lg font-sans"></div>
       <div className="  mx-auto flex md:flex-row md:space-between  flex-col  gap-6 md:gap-12 md:mb-10">
       <div className="rounded-xl transition duration-500 ease-in-out mx-auto  hover:scale-110 hover:ease-in-out shadow-lg flex flex-col md:gap-4  px-8 md:px-8 py-6">
           <div className="md:text-2xl text-xl text-semibold text-center mt-10 font-sans">
