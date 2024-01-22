@@ -14,11 +14,18 @@ function SectionOne() {
         <span className="text-slate-600 text-md mt-10">E-commerce allows consumers to electronically exchange goods and services with no barriers of time or distance. Electronic commerce has expanded rapidly over the past five years and is predicted to continue at this rate, or even accelerate. In the near future, the boundaries between conventional and electronic commerce will become increasingly blurred as more and more businesses move sections of their operations onto the Internet.</span>
         <div className="flex flex-row justify-start mt-10 space-x-2">
           <p className="font-semibold text-md">System Requirement :-</p>
-          <p className="text-md text-slate-600">Windows Hosting Server, MS SQL Database, .NET Framework 4.0.</p>
+          <p className="text-md text-slate-600">Windows Hosting Server, MS SQL Database, .NET Framework 4.0, Azure
+Amazon Web Services (AWS),
+Google Cloud Platform (GCP),
+Heroku.</p>
         </div>
         <div className="flex flex-row justify-start space-x-2">
           <p className="font-semibold text-md">Language Used :-</p>
-          <p className="text-md text-slate-600">HTML, DHTML, JavaScript, ASP.NET, MS SQL Database</p>
+          <p className="text-md text-slate-600">HTML, DHTML, JavaScript, ASP.NET, MS SQL Database, C#
+VB.NET,
+Python,
+Node.js (JavaScript),
+PHP.</p>
         </div>
         <Image src={image1} alt="middle" layout="responsive" width={100} height={50} className="w-full h-auto rounded-2xl" />
       </div>

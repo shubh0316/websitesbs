@@ -115,7 +115,7 @@ export function DesktopNav() {
 
 function Navbar() {
   return (
-    <div className="max-w-8xl mx-auto px-4">
+    <div className="max-w-8xl mx-auto px-10">
  
       <MobileNav />
       <DesktopNav />
