@@ -33,13 +33,13 @@ const imageUrls = [
 const LogoSection = () => {
   return (
     <div className="sm:overflow-hidden" style={{ background: "linear-gradient(91.58deg, #101624 0%, #010203 100%)" }}>
-      <div className="text-center font-sans font-bold p-4 text-4xl text-white">
+      <div className="text-center font-sans font-bold p-8 text-4xl text-white">
         PARTNERS AND TECHNOLOGY
       </div>
       <div className="flex flex-wrap justify-center md:p-10">
         {imageUrls.map((logo, index) => (
           <div key={index} className="m-4">
-            <Image src={logo.url} alt={`Logo ${index + 1}`} width={140} height={180} />
+            <Image src={logo.url} alt={`Logo ${index + 1}`} width={90} height={180} />
           </div>
         ))}
       </div>

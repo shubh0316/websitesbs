@@ -10,10 +10,10 @@ const StatsSection = () => {
   return (
     <>
     <div style={backgroundStyle}>  
-      <div className="text-center text-white font-sans font-bold mt-4  p-5 text-4xl">
+      <div className="text-center text-white font-sans font-bold mt-6  p-14 text-4xl leading-tight tracking-wider">
         Award Winning MLM Consultant
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 p-10 md:p-20 text-white " >
+      <div className="grid grid-cols-1 md:grid-cols-4 p-10 md:px-20 md:py-10  text-white " >
         {/* First Stat */}
         <div className="col-span-1 md:col-span-1">
           <div className="flex flex-col items-center">
