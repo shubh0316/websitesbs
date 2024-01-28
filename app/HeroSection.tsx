@@ -25,8 +25,8 @@ const HeroSection = () => {
               </div>           
           </div>
          </div> 
-    <div className="md:col-span-1 col-span-2  md:rounded-xl object-cover">
-                <Image src={hero} alt="" className='w-[100%] ' /> 
+    <div className="md:col-span-1 md:mt-20 col-span-2  md:rounded-xl object-cover">
+                <Image src={hero} alt="" className='md:h-[80%] lg:w-[100%] object-cover rounded-xl' /> 
             </div>
            
     </div>
